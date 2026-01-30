@@ -1,0 +1,173 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    background: transparent;
+    padding: 1.5rem 0;
+}
+
+.scrolled {
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    box-shadow: var(--glass-shadow);
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo a {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text-inv);
+    /* White by default for Dark Hero */
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    transition: color 0.3s ease;
+}
+
+.scrolled .logo a {
+    color: var(--color-primary);
+    /* Dark when scrolled on light bg */
+}
+
+.logoAccent {
+    color: var(--color-accent);
+}
+
+/* Navigation */
+.nav {
+    height: 100%;
+}
+
+.navList {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navItem {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: var(--color-text-inv);
+    /* White by default */
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.3s ease;
+}
+
+.scrolled .navLink {
+    color: var(--color-text-main);
+    /* Dark when scrolled */
+}
+
+.navLink:hover {
+    color: var(--color-accent);
+}
+
+.arrow {
+    font-size: 0.6rem;
+    opacity: 0.8;
+    color: inherit;
+    /* Inherit from navLink */
+}
+
+/* Mega Menu */
+.megaMenu {
+    position: absolute;
+    top: 100%;
+    left: -2rem;
+    /* Slight offset to center relative to item */
+    width: 600px;
+    background: var(--color-surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    padding: 2rem;
+    border: 1px solid var(--color-border);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideIn 0.2s forwards;
+    pointer-events: none;
+    /* Prevent click when hidden */
+}
+
+/* Make it interactable when Rendered */
+.navItem:hover .megaMenu {
+    pointer-events: auto;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.megaGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.columnTitle {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.megaList li {
+    margin-bottom: 0.5rem;
+}
+
+.megaList a {
+    font-size: 0.9rem;
+    color: var(--color-primary);
+    display: block;
+}
+
+.megaList a:hover {
+    color: var(--color-accent);
+    transform: translateX(4px);
+}
+
+/* Featured Card in Menu */
+.featuredCard {
+    background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+    color: var(--color-text-inv);
+}
+
+.featuredCard p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.readMore {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-accent);
+}

@@ -1,0 +1,50 @@
+.trustSection {
+    padding: 3rem 0;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    opacity: 0.7;
+}
+
+.link {
+    transition: opacity 0.3s;
+}
+
+.partner:hover {
+    opacity: 1;
+}
+
+.logoText {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #CBD5E1;
+    /* Muted gray for logos */
+    transition: color 0.3s ease;
+}
+
+.partner:hover .logoText {
+    color: var(--color-primary);
+    /* Color on hover */
+}

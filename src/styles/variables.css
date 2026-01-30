@@ -1,0 +1,39 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #0A192F; /* Deep Enterprise Navy */
+  --color-primary-light: #112240;
+  --color-accent: #FF7A3D; /* Skifin Orange */
+  --color-accent-secondary: #7F5AF0; /* Innovation Purple */
+  --color-gradient-main: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+  
+  /* Neutral Colors */
+  --color-surface: #FFFFFF;
+  --color-surface-dim: #F8F9FA;
+  --color-text-main: #1A1A1A;
+  --color-text-light: #4A5568;
+  --color-text-inv: #FFFFFF;
+  --color-border: #E2E8F0;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-blur: blur(12px);
+  --glass-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+
+  /* Typography */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --section-spacing: 6rem; /* Big expansive MNC spacing */
+  --container-max: 1280px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}

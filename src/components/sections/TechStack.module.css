@@ -1,0 +1,45 @@
+.stackSection {
+    background: var(--color-primary-light);
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    color: var(--color-text-inv);
+}
+
+.label {
+    text-align: center;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    opacity: 0.6;
+    margin-bottom: 1.5rem;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.techItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1rem;
+    color: #a8b2d1;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.techItem:hover {
+    color: var(--color-accent);
+    transform: translateY(-2px);
+}
+
+.dot {
+    color: var(--color-accent-secondary);
+    font-size: 1.2rem;
+    line-height: 0;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 const Footer = () => {
@@ -19,40 +20,40 @@ const Footer = () => {
                     <div className={styles.linksCol}>
                         <h4 className={styles.colTitle}>Solutions</h4>
                         <ul>
-                            <li><a href="#">Cloud Infrastructure</a></li>
-                            <li><a href="#">Data Analytics</a></li>
-                            <li><a href="#">AI & Automation</a></li>
-                            <li><a href="#">Cybersecurity</a></li>
+                            <li><Link to="/services/cloud-migration">Cloud Infrastructure</Link></li>
+                            <li><Link to="/services/data-analytics">Data Analytics</Link></li>
+                            <li><Link to="/services/generative-ai">AI & Automation</Link></li>
+                            <li><Link to="/services/zero-trust">Cybersecurity</Link></li>
                         </ul>
                     </div>
 
                     <div className={styles.linksCol}>
                         <h4 className={styles.colTitle}>Industries</h4>
                         <ul>
-                            <li><a href="#">Banking & Finance</a></li>
-                            <li><a href="#">Healthcare</a></li>
-                            <li><a href="#">Retail & CPG</a></li>
-                            <li><a href="#">Manufacturing</a></li>
+                            <li><Link to="#">Banking & Finance</Link></li>
+                            <li><Link to="#">Healthcare</Link></li>
+                            <li><Link to="#">Retail & CPG</Link></li>
+                            <li><Link to="#">Manufacturing</Link></li>
                         </ul>
                     </div>
 
                     <div className={styles.linksCol}>
                         <h4 className={styles.colTitle}>Company</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><Link to="/company">About Us</Link></li>
+                            <li><Link to="#">Careers</Link></li>
+                            <li><Link to="#">Investor Relations</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
 
                     <div className={styles.linksCol}>
                         <h4 className={styles.colTitle}>Legal</h4>
                         <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Cookie Policy</a></li>
-                            <li><a href="#">Accessibility</a></li>
+                            <li><Link to="/privacy">Privacy Policy</Link></li>
+                            <li><Link to="/terms">Terms of Use</Link></li>
+                            <li><Link to="#">Cookie Policy</Link></li>
+                            <li><Link to="#">Accessibility</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -1,60 +1,51 @@
 ---
 name: MNC Architecture Builder
-description: A guidebook and set of patterns for building "Fortune 500" style corporate websites using React.
+description: Guidebook for building content-rich, visually diverse enterprise sites.
 ---
 
-# MNC Architecture Builder
+# MNC Architecture Builder v2
 
-This skill provides the architectural patterns and design principles required to build "Formal Industry-Grade" websites (similar to R Systems, Accenture, Salesforce).
+## Page Template (8 Sections)
 
-## Core Design Principles
+| # | Section | Visual Style | Content |
+|---|---------|--------------|---------|
+| 1 | **Hero** | Full-width Img/Video | Animated H1, Subheading, CTAs |
+| 2 | **Overview** | Solid Color A | Description + **High-res Image** |
+| 3 | **Features** | Gradient A | **9+ Cards** (Glassmorphism) |
+| 4 | **Carousel** | Solid Color B | Tech Stack / Client Logos (Infinite scroll) |
+| 5 | **Process** | Solid Color A | Zig-zag layout with **images per step** |
+| 6 | **Stats** | Parallax Image | 4 Large counters |
+| 7 | **FAQ/More** | Gradient B | Accordion list |
+| 8 | **CTA** | Vibrant Gradient | Final conversion block |
 
-1.  **Authority & Trust**:
-    *   Use "Standard" sans-serif fonts (Inter, Roboto, Montserrat) for high legibility.
-    *   Corporate Blue/Navy palettes mixed with ample white space.
-    *   **Trust Signals**: Always place client logos, certifications, and awards "above the fold" or immediately following the hero.
+---
 
-2.  **Navigation Depth**:
-    *   Implement **Mega Menus** instead of simple dropdowns.
-    *   Structure: Services | Industries | Insights | Company.
-    *   Menus should be comprehensive, often containing 3-4 columns of links.
+## Visual Rules
+1. **Never repeat background colors** sequentially.
+2. **Headings must be WHITE** on dark backgrounds.
+3. **Cards must contrast** with their section background.
+4. **Images in every scroll view** (Introduction, Features, Process).
 
-3.  **Layout Patterns**:
-    *   **The Hero**: Carousel or Cinematic Video Background. Low kinetic energy (slow movement), high visual fidelity.
-    *   **The Grid**: Rigorous alignment (often 12-column). Cards should be uniform.
-    *   **The Fat Footer**: 4-6 columns. Must include Legal, Privacy, Sitemap, and Office Locations.
+---
 
-## Component Specifications (React)
+## Component Logic
 
-### 1. The Mega Menu
-Structure your data as a nested object:
-```javascript
-const menuData = {
-  capabilities: {
-    columns: [
-      { title: "Core Services", items: ["Cloud", "Data", "AI"] },
-      { title: "Consulting", items: ["Strategy", "Compliance"] },
-      { title: "Featured", component: <FeaturedCard /> }
-    ]
-  }
-}
-```
+### Carousel (Tech Stack)
+- Infinite auto-scroll
+- 10-15 logos/icons
+- Pause on hover
 
-### 2. The Corporate Hero
-*   Avoid "bouncy" animations. Use `transform: scale(1.05)` over 10s (Ken Burns effect).
-*   Overlay text must have high contrast (White text on Dark overlay).
+### Features Grid
+- 3x3 layout minimum (9 cards)
+- Hover: Scale up + Border glow (different color than bg)
 
-### 3. Typography Scale
-*   H1: 48px - 64px (Bold/Heavy)
-*   H2: 32px - 40px (SemiBold)
-*   Body: 16px - 18px (Regular, high line-height 1.6)
+---
 
-## Color Palette (The "Mega Site" Blend)
-*   `--color-primary`: #0A192F (Deep Navy - Authority)
-*   `--color-accent`: #FF7A3D (Vibrant Orange - Innovation/Skifin)
-*   `--color-surface`: #FFFFFF (Cleanliness)
-*   `--color-text`: #333333 (Readability)
+## Verification Checklist
+- [ ] 8 distinct sections visible
+- [ ] Alternating background colors
+- [ ] Carousel is scrolling
+- [ ] 9+ Feature cards
+- [ ] Images visible in Overview and Process
+- [ ] H1 is White and readable
 
-## React Implementation Tips
-*   Use `CSS Modules` for scoped styling to prevent leakage in large apps.
-*   Structure: `src/components/layout/MegaMenu`, `src/components/sections/TrustSignals`.

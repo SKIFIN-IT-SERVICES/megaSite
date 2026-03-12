@@ -5,9 +5,18 @@ import styles from './Header.module.css';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
-  const closeMenu = () => setActiveMenu(null);
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => {
+    setActiveMenu(null);
+    setIsMenuOpen(false);
+  };
+
+  const handleMenuClick = (id) => {
+    setActiveMenu(activeMenu === id ? null : id);
+  };
 
   // Handle scroll effect
   useEffect(() => {
@@ -160,30 +169,47 @@ const Header = () => {
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.container}`}>
         <div className={styles.logo}>
-          <Link to="/">Mega<span className={styles.logoAccent}>Site</span></Link>
+          <Link to="/" onClick={closeMenu}>Mega<span className={styles.logoAccent}>Site</span></Link>
         </div>
 
-        <nav className={styles.nav}>
+        <button 
+          className={`${styles.mobileToggle} ${isMenuOpen ? styles.toggleOpen : ''}`} 
+          onClick={toggleMenu}
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>
           <ul className={styles.navList}>
             {menuItems.map((item) => (
               <li
                 key={item.id}
                 className={styles.navItem}
-                onMouseEnter={() => item.hasMega && setActiveMenu(item.id)}
-                onMouseLeave={() => setActiveMenu(null)}
+                onMouseEnter={() => item.hasMega && window.innerWidth >= 1024 && setActiveMenu(item.id)}
+                onMouseLeave={() => window.innerWidth >= 1024 && setActiveMenu(null)}
               >
                 <Link 
                   to={item.path || '#'} 
                   className={`${styles.navLink} ${item.path === location.pathname ? styles.activeNavLink : ''}`}
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    if (item.hasMega && window.innerWidth < 1024) {
+                      e.preventDefault();
+                      handleMenuClick(item.id);
+                    } else {
+                      closeMenu();
+                    }
+                  }}
                 >
                   {item.label}
-                  {item.hasMega && <span className={styles.arrow}>▼</span>}
+                  {item.hasMega && <span className={`${styles.arrow} ${activeMenu === item.id ? styles.arrowRotate : ''}`}>▼</span>}
                 </Link>
 
                 {/* Mega Menu Dropdown */}
-                {item.hasMega && activeMenu === item.id && (
-                  <div className={`${styles.megaMenu} ${styles[item.id + 'Menu']}`}>
+                {item.hasMega && (
+                  <div className={`${styles.megaMenu} ${styles[item.id + 'Menu']} ${activeMenu === item.id ? styles.mobileActive : ''}`}>
                     <div className={`${styles.megaGrid} ${styles[item.id + 'Grid']}`}>
                       {item.columns.map((col, idx) => (
                         <div key={idx} className={`${styles.megaColumn} ${col.type === 'featured' ? styles.featuredCol : ''}`}>
@@ -216,6 +242,10 @@ const Header = () => {
               </li>
             ))}
           </ul>
+          {/* Mobile Only Action */}
+          <div className={styles.mobileActions}>
+            <Link to="/contact" className="btn btn-primary" onClick={closeMenu}>Get Started</Link>
+          </div>
         </nav>
 
         <div className={styles.actions}>

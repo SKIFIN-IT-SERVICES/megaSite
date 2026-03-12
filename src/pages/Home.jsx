@@ -9,6 +9,7 @@ import GlobalReach from '../components/sections/GlobalReach';
 import Insights from '../components/sections/Insights';
 import Testimonials from '../components/sections/Testimonials';
 import TechStack from '../components/sections/TechStack';
+import ElectricalSupplies from '../components/sections/ElectricalSupplies';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Trust />
             <Process />
             <Pillars />
+            <ElectricalSupplies />
             <AIUseCases />
             <IndustryImpact />
             <GlobalReach />

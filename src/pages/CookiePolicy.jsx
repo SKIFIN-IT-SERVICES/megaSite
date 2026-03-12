@@ -11,7 +11,7 @@ const CookiePolicy = () => {
             {/* HERO */}
             <section className={styles.hero} style={{ minHeight: '40vh' }}>
                 <div className={styles.heroBackground}>
-                    <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=2000" alt="Cookies" className={styles.heroImg} />
+                    <img src="/images/services/unsplash-1516321497487-e288fb19713f.jpg" alt="Cookies" className={styles.heroImg} />
                     <div className={styles.heroOverlay} />
                 </div>
                 <div className={styles.heroContent}>

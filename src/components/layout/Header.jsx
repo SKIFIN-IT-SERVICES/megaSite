@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeMenu, setActiveMenu] = useState(null);
+  const location = useLocation();
+
+  const closeMenu = () => setActiveMenu(null);
 
   // Handle scroll effect
   useEffect(() => {
@@ -72,6 +75,45 @@ const Header = () => {
       ]
     },
     {
+      id: 'expertise',
+      label: 'Strategic Expertise',
+      hasMega: true,
+      columns: [
+        {
+          title: "Industrial & Marine",
+          links: [
+            { name: "Electrical & Instr.", path: "/services/electrical-instrumentation" },
+            { name: "Cables & Management", path: "/services/cables-management" },
+            { name: "Switchgear & Control", path: "/services/switchgear-control" },
+            { name: "Marine & Offshore", path: "/services/marine-offshore" }
+          ]
+        },
+        {
+          title: "Energy & Infrastructure",
+          links: [
+            { name: "Solar Power Solutions", path: "/services/solar-solutions" },
+            { name: "HV & Substations", path: "/services/hv-substations" },
+            { name: "Poles & Towers", path: "/services/poles-towers" },
+            { name: "Steel Structures", path: "/services/steel-structures" }
+          ]
+        },
+        {
+          title: "Hospitality OS&E",
+          links: [
+            { name: "Housekeeping & Linen", path: "/services/hospitality-linen" },
+            { name: "F&B & Tabletop", path: "/services/hospitality-fb" },
+            { name: "Kitchen & Banquet", path: "/services/hospitality-kitchen" },
+            { name: "SPA & Wellbeing", path: "/services/hospitality-spa" }
+          ]
+        },
+        {
+          title: "Market Presence",
+          type: "featured",
+          content: "Serving 50+ luxury hospitality projects and major global power grids."
+        }
+      ]
+    },
+    {
       id: 'capabilities',
       label: 'Capabilities',
       hasMega: true,
@@ -92,6 +134,15 @@ const Header = () => {
             { name: "IT Modernization", path: "/services/app-modernization" },
             { name: "Compliance Audits", path: "/services/compliance" },
             { name: "Staff Augmentation", path: "/services/staff-augmentation" }
+          ]
+        },
+        {
+          title: "Electricals",
+          links: [
+            { name: "LV & HV Switchgear", path: "/services/switchgear-control" },
+            { name: "Offshore Cables", path: "/services/cables-management" },
+            { name: "Marine Retrofits", path: "/services/marine-offshore" },
+            { name: "Automation Systems", path: "/services/automation-products" }
           ]
         },
         {
@@ -121,7 +172,11 @@ const Header = () => {
                 onMouseEnter={() => item.hasMega && setActiveMenu(item.id)}
                 onMouseLeave={() => setActiveMenu(null)}
               >
-                <Link to={item.path || '#'} className={styles.navLink}>
+                <Link 
+                  to={item.path || '#'} 
+                  className={`${styles.navLink} ${item.path === location.pathname ? styles.activeNavLink : ''}`}
+                  onClick={closeMenu}
+                >
                   {item.label}
                   {item.hasMega && <span className={styles.arrow}>▼</span>}
                 </Link>
@@ -141,7 +196,15 @@ const Header = () => {
                           ) : col.links && (
                             <ul className={styles.megaList}>
                               {col.links.map((link, lIdx) => (
-                                <li key={lIdx}><Link to={link.path}>{link.name}</Link></li>
+                                <li key={lIdx}>
+                                  <Link 
+                                    to={link.path} 
+                                    onClick={closeMenu}
+                                    className={(location.pathname + location.hash) === link.path ? styles.activeLink : ''}
+                                  >
+                                    {link.name}
+                                  </Link>
+                                </li>
                               ))}
                             </ul>
                           )}

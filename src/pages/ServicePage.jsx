@@ -123,6 +123,7 @@ const ServicePage = () => {
                         {content.features?.map((feature, idx) => (
                             <motion.div
                                 key={idx}
+                                id={feature.id}
                                 className={styles.featureCard}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -172,7 +173,7 @@ const ServicePage = () => {
                             <div className={styles.roiImageWrapper}>
                                 {/* Using a chart-like abstract image if no specific image provided */}
                                 <img
-                                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                                    src="/images/services/unsplash-1551288049-bebda4e38f71.jpg"
                                     alt="ROI Analytics"
                                     className={`${styles.overviewImage} ${styles.rounded}`}
                                     style={{ borderRadius: '20px', border: '1px solid rgba(255,255,255,0.1)' }}

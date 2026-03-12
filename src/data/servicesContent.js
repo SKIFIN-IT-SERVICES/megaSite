@@ -7,11 +7,11 @@ export const servicesContent = {
         category: "AI & Data Solutions",
         title: "Generative AI Engineering",
         subtitle: "Architecting the future with Large Language Models and custom generative pipelines.",
-        heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=2000", /* Abstract Neural Network */
+        heroImage: "/images/services/unsplash-1620712943543-bcc4688e7485.jpg", /* Abstract Neural Network */
 
         overview: {
             text: "Our Generative AI solutions go beyond chat interfaces. We build enterprise-grade reasoning engines that integrate securely with your proprietary data. From RAG (Retrieval-Augmented Generation) architectures to fine-tuned foundation models, we enable automated content creation, code generation, and complex decision support.",
-            image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1200", /* Code/Dashboard */
+            image: "/images/services/unsplash-1555949963-ff9fe0c870eb.jpg", /* Code/Dashboard */
             benefits: [
                 "Secure On-Premise / Private Cloud Deployment",
                 "Custom RAG Architectures for High Accuracy",
@@ -70,14 +70,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "PyTorch", icon: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" },
-            { name: "TensorFlow", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" },
-            { name: "Hugging Face", icon: "https://github.com/huggingface.png" },
-            { name: "LangChain", icon: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4" },
-            { name: "OpenAI", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png?20230316161605" }, /* White logo workaround via ChatGPT logo which is white-compatible or inverted by filter */
-            { name: "Pinecone", icon: "https://github.com/pinecone-io.png" },
-            { name: "NVIDIA", icon: "https://github.com/nvidia.png" },
-            { name: "Databricks", icon: "https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" }
+            { name: "PyTorch", icon: "/images/services/PyTorch_logo_icon.svg" },
+            { name: "TensorFlow", icon: "/images/services/Tensorflow_logo.svg" },
+            { name: "Hugging Face", icon: "/images/services/huggingface.png" },
+            { name: "LangChain", icon: "/images/services/asset-2.jpg" },
+            { name: "OpenAI", icon: "/images/services/1024px-ChatGPT_logo.svg.png" }, /* White logo workaround via ChatGPT logo which is white-compatible or inverted by filter */
+            { name: "Pinecone", icon: "/images/services/pinecone-io.png" },
+            { name: "NVIDIA", icon: "/images/services/nvidia.png" },
+            { name: "Databricks", icon: "/images/services/Databricks_Logo.png" }
         ],
 
         roi: {
@@ -134,25 +134,25 @@ export const servicesContent = {
                 step: 1,
                 title: "Discovery & Strategy",
                 description: "We analyze your data readiness, identify high-impact use cases, and model ROI to ensure strategic alignment.",
-                image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1531403009284-440f080d1e12.jpg"
             },
             {
                 step: 2,
                 title: "Data Prep & Vectorization",
                 description: "Cleaning unstructured data, creating knowledge graphs, and setting up vector indexes for efficient retrieval.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551288049-bebda4e38f71.jpg"
             },
             {
                 step: 3,
                 title: "Model Development",
                 description: "Fine-tuning base models, engineering prompt chains, and orchestrating agent workflows.",
-                image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1555949963-aa79dcee981c.jpg"
             },
             {
                 step: 4,
                 title: "Deployment & Monitoring",
                 description: "Rolling out to production with comprehensive observability for latency, cost, and hallucination rates.",
-                image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551434678-e076c223a692.jpg"
             }
         ],
 
@@ -183,19 +183,19 @@ export const servicesContent = {
                 quote: "We reduced our contract review time by 90% while improving accuracy. The ROI was evident within weeks.",
                 author: "Sarah J.",
                 role: "CLO, FinTech Unicorn",
-                image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1494790108377-be9c29b29330.jpg"
             },
             {
                 quote: "Their RAG pipeline architecture allowed us to query 10TB of legacy documents instantly with zero hallucinations.",
                 author: "Michael C.",
                 role: "CTO, Manufacturing Giant",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1472099645785-5658abf4ff4e.jpg"
             },
             {
                 quote: "The ability to deploy open-weight models on our own hardware was a game changer for our compliance requirements.",
                 author: "Dr. Emily R.",
                 role: "VP AI, HealthSystems",
-                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg"
             }
         ],
 
@@ -211,11 +211,11 @@ export const servicesContent = {
         category: "AI & Data Solutions",
         title: "Agentic AI Systems",
         subtitle: "Autonomous agents that plan, reason, and execute complex workflows without human intervention.",
-        heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=2000", /* Neural Network / Connectivity */
+        heroImage: "/images/services/unsplash-1620712943543-bcc4688e7485.jpg", /* Neural Network / Connectivity */
 
         overview: {
             text: "Agentic AI moves beyond simple chatbots to autonomous systems capable of pursuing goals. Our agents utilize advanced reasoning, tool use, and memory to handle end-to-end business processes—from supply chain optimization to autonomous software regulation—reducing human overhead by up to 60%.",
-            image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=1200", /* Robot/Cybernetics */
+            image: "/images/services/unsplash-1485827404703-89b55fcc595e.jpg", /* Robot/Cybernetics */
             benefits: [
                 "Self-Correcting Reasoning Loops",
                 "Multi-Agent Orchestration Swarms",
@@ -274,14 +274,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "AutoGPT", icon: "https://github.com/Significant-Gravitas.png" }, /* Official AutoGPT Avatar (Natural) */
-            { name: "LangGraph", icon: "https://avatars.githubusercontent.com/u/126733545?s=200&v=4" },
-            { name: "CrewAI", icon: "https://github.com/joaomdmoura.png" },
-            { name: "OpenAI", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/1024px-OpenAI_Logo.svg.png" }, /* Green/Black standard logo */
-            { name: "Anthropic", icon: "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg" },
-            { name: "Pinecone", icon: "https://github.com/pinecone-io.png" },
-            { name: "Celery", icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" },
-            { name: "Docker", icon: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" }
+            { name: "AutoGPT", icon: "/images/services/Significant-Gravitas.png" }, /* Official AutoGPT Avatar (Natural) */
+            { name: "LangGraph", icon: "/images/services/asset-2.jpg" },
+            { name: "CrewAI", icon: "/images/services/joaomdmoura.png" },
+            { name: "OpenAI", icon: "/images/services/1024px-OpenAI_Logo.svg.png" }, /* Green/Black standard logo */
+            { name: "Anthropic", icon: "/images/services/Anthropic_logo.svg" },
+            { name: "Pinecone", icon: "/images/services/pinecone-io.png" },
+            { name: "Celery", icon: "/images/services/Celery_logo.png" },
+            { name: "Docker", icon: "/images/services/vertical-logo-monochromatic.png" }
         ],
 
         roi: {
@@ -338,25 +338,25 @@ export const servicesContent = {
                 step: 1,
                 title: "Workflow Mapping",
                 description: "Deconstructing human processes into discrete atomic actions suitable for agents.",
-                image: "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1512314889357-e157c22f938d.jpg"
             },
             {
                 step: 2,
                 title: "Tool Definition",
                 description: "Creating secure API wrappers and data connectors for agent interaction.",
-                image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1555066931-4365d14bab8c.jpg"
             },
             {
                 step: 3,
                 title: "Agent Training",
                 description: "Teaching agents via few-shot prompting and simulating edge cases in a sandbox.",
-                image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1531482615713-2afd69097998.jpg"
             },
             {
                 step: 4,
                 title: "Orchestration",
                 description: "Deploying the multi-agent supervisors to manage sub-agents and ensure goal completion.",
-                image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1519389950473-47ba0277781c.jpg"
             }
         ],
 
@@ -387,19 +387,19 @@ export const servicesContent = {
                 quote: "Our support resolution time dropped by 60% after deploying their Tier-1 triage agents.",
                 author: "James T.",
                 role: "VP Support, SaaS Corp",
-                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1507003211169-0a1dd7228f2d.jpg"
             },
             {
                 quote: "Ideally suited for our supply chain. The agents autonomously negotiated minor re-orders, saving us hours.",
                 author: "Maria G.",
                 role: "Director of Ops, RetailBrand",
-                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1438761681033-6461ffad8d80.jpg"
             },
             {
                 quote: "The ability to have a 'coder' agent and a 'reviewer' agent work together on tickets is mind-blowing.",
                 author: "David K.",
                 role: "Engineering Lead, TechFlow",
-                image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1500648767791-00dcc994a43e.jpg"
             }
         ],
 
@@ -413,11 +413,11 @@ export const servicesContent = {
         category: "AI & Data Solutions",
         title: "Intelligent RPA",
         subtitle: "Automate high-volume, repetitive tasks with 100% accuracy using our next-gen robotic process automation.",
-        heroImage: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&q=80&w=2000", /* Circuit/Robot Hand */
+        heroImage: "/images/services/unsplash-1518186285589-2f7649de83e0.jpg", /* Circuit/Robot Hand */
 
         overview: {
             text: "We don't just build bots; we build digital workforces. Our Intelligent RPA solutions bridge legacy systems with modern AI, allowing you to automate complex cross-application workflows like invoice processing, employee onboarding, and claims management without ripping and replacing your core infrastructure.",
-            image: "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?auto=format&fit=crop&q=80&w=1200", /* AI/Hand interaction */
+            image: "/images/services/unsplash-1516110833967-0b5716ca1387.jpg", /* AI/Hand interaction */
             benefits: [
                 "Non-Invasive Integration (Works with any UI)",
                 "24/7 Digital Workforce Availability",
@@ -476,13 +476,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "UiPath", icon: "https://github.com/UiPath.png" },
-            { name: "Blue Prism", icon: "https://github.com/blueprism.png" }, /* Official GitHub Org */
-            { name: "Automation Anywhere", icon: "https://github.com/AutomationAnywhere.png" },
-            { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
-            { name: "Selenium", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png" },
-            { name: "Docker", icon: "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" },
-            { name: "Celery", icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" }
+            { name: "UiPath", icon: "/images/services/UiPath.png" },
+            { name: "Blue Prism", icon: "/images/services/blueprism.png" }, /* Official GitHub Org */
+            { name: "Automation Anywhere", icon: "/images/services/AutomationAnywhere.png" },
+            { name: "Python", icon: "/images/services/Python-logo-notext.svg" },
+            { name: "Selenium", icon: "/images/services/Selenium_Logo.png" },
+            { name: "Docker", icon: "/images/services/vertical-logo-monochromatic.png" },
+            { name: "Celery", icon: "/images/services/Celery_logo.png" }
         ],
 
         roi: {
@@ -539,25 +539,25 @@ export const servicesContent = {
                 step: 1,
                 title: "Process Mining",
                 description: "We install non-intrusive trackers to identify the most repetitive, high-value workflows to automate.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551288049-bebda4e38f71.jpg"
             },
             {
                 step: 2,
                 title: "Bot Design",
                 description: "Architecting the bot's logic flow, exception handling, and security credentials.",
-                image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1581091226825-a6a2a5aee158.jpg"
             },
             {
                 step: 3,
                 title: "Development & Testing",
                 description: "Building the scripts and stress-testing them against edge cases and system lag.",
-                image: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1515378791036-0648a3ef77b2.jpg"
             },
             {
                 step: 4,
                 title: "Hypercare Support",
                 description: "We monitor the bots closely for the first 2 weeks to ensure 100% stability in production.",
-                image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1531403009284-440f080d1e12.jpg"
             }
         ],
 
@@ -588,19 +588,19 @@ export const servicesContent = {
                 quote: "We automated our entire accounts payable process. What took 5 people a week now takes 2 hours.",
                 author: "Robert L.",
                 role: "CFO, Manufacturing",
-                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1560250097-0b93528c311a.jpg"
             },
             {
                 quote: "The bots are incredibly reliable. They handle our peak season order volume without breaking a sweat.",
                 author: "Sarah W.",
                 role: "Ops Manager, Ecommerce",
-                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg"
             },
             {
                 quote: "Seamless legacy integration. We kept our 20-year-old mainframe but gave it a modern API interface.",
                 author: "Amit P.",
                 role: "CIO, Banking",
-                image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg"
             }
         ],
 
@@ -614,11 +614,11 @@ export const servicesContent = {
         category: "AI & Data Solutions",
         title: "Vibe Coding",
         subtitle: "Accelerate software delivery with AI-paired programming and vibe-driven development workflows.",
-        heroImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=2000", /* Coding/IDE */
+        heroImage: "/images/services/unsplash-1555066931-4365d14bab8c.jpg", /* Coding/IDE */
 
         overview: {
             text: "Vibe Coding isn't just about speed; it's about flow. We integrate advanced AI coding assistants like GitHub Copilot, Cursor, and custom LLMs into your development environment. This 'Human-in-the-Loop' approach reduces boilerplate, catches bugs early, and allows your senior engineers to focus on architecture and 'vibe'—the intuitive art of great software design.",
-            image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1200", /* Laptop/Code */
+            image: "/images/services/unsplash-1517694712202-14dd9538aa97.jpg", /* Laptop/Code */
             benefits: [
                 "50% Reduction in Boilerplate Code",
                 "Automated Unit Test Generation",
@@ -662,14 +662,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Antigravity", icon: "https://ui-avatars.com/api/?name=Antigravity&background=000&color=fff&rounded=true" }, /* Custom Agentic Brand */
-            { name: "GitHub Copilot", icon: "https://github.com/github.png" },
-            { name: "TypeScript", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" },
-            { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-            { name: "OpenAI", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" }, /* Black SVG -> Will be Inverted to White */
-            { name: "Anthropic", icon: "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg" }, /* Black SVG -> Will be Inverted to White */
-            { name: "Vercel", icon: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" }, /* Black SVG -> Will be Inverted to White */
-            { name: "Supabase", icon: "https://github.com/supabase.png" }
+            { name: "Antigravity", icon: "/images/services/asset-26.jpg" }, /* Custom Agentic Brand */
+            { name: "GitHub Copilot", icon: "/images/services/github.png" },
+            { name: "TypeScript", icon: "/images/services/Typescript_logo_2020.svg" },
+            { name: "React", icon: "/images/services/React-icon.svg" },
+            { name: "OpenAI", icon: "/images/services/OpenAI_Logo.svg" }, /* Black SVG -> Will be Inverted to White */
+            { name: "Anthropic", icon: "/images/services/Anthropic_logo.svg" }, /* Black SVG -> Will be Inverted to White */
+            { name: "Vercel", icon: "/images/services/Vercel_logo_black.svg" }, /* Black SVG -> Will be Inverted to White */
+            { name: "Supabase", icon: "/images/services/supabase.png" }
         ],
 
         roi: {
@@ -719,25 +719,25 @@ export const servicesContent = {
                 step: 1,
                 title: "Env Setup",
                 description: "Configuring IDEs with the right AI extensions and context-aware context.",
-                image: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1587620962725-abab7fe55159.jpg"
             },
             {
                 step: 2,
                 title: "Prompt Engineering",
                 description: "Training your team on how to prompt for optimal code generation.",
-                image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1531482615713-2afd69097998.jpg"
             },
             {
                 step: 3,
                 title: "Vibe Check / Review",
                 description: "Humans review the AI output for architecture, security, and 'vibe'.",
-                image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1522071820081-009f0129c71c.jpg"
             },
             {
                 step: 4,
                 title: "Deploy",
                 description: "Automated CI/CD pipelines push the verified code to production.",
-                image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551434678-e076c223a692.jpg"
             }
         ],
 
@@ -768,13 +768,13 @@ export const servicesContent = {
                 quote: "We rebuilt our entire frontend in 3 weeks. Vibe coding is the real deal.",
                 author: "Jessica M.",
                 role: "Product Lead",
-                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1438761681033-6461ffad8d80.jpg"
             },
             {
                 quote: "Our junior devs are performing like mid-levels thanks to the AI guardrails.",
                 author: "Tom H.",
                 role: "Engineering Manager",
-                image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1500648767791-00dcc994a43e.jpg"
             }
         ],
 
@@ -789,11 +789,11 @@ export const servicesContent = {
         category: "AI & Data Solutions",
         title: "Advanced Data Analytics",
         subtitle: "Turn raw data into actionable intelligence with modern data stacks and predictive dashboards.",
-        heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000", /* Data/Charts */
+        heroImage: "/images/services/unsplash-1551288049-bebda4e38f71.jpg", /* Data/Charts */
 
         overview: {
             text: "Data is your most valuable asset, but only if you can understand it. We help enterprises build modern data platforms—from Data Lakes to Warehouses—enabling real-time reporting, predictive modeling, and self-service BI. We move beyond static spreadsheets to dynamic, interactive insights that drive decision-making.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200", /* Dashboard */
+            image: "/images/services/unsplash-1460925895917-afdab827c52f.jpg", /* Dashboard */
             benefits: [
                 "Single Source of Truth",
                 "Real-time Data Streaming",
@@ -837,14 +837,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Snowflake", icon: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg" },
-            { name: "Databricks", icon: "https://upload.wikimedia.org/wikipedia/commons/6/63/Databricks_Logo.png" },
-            { name: "PowerBI", icon: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" },
-            { name: "Tableau", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" },
-            { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
-            { name: "dbt", icon: "https://github.com/dbt-labs.png" }, /* Official dbt Avatar */
-            { name: "Apache Spark", icon: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" },
-            { name: "Kafka", icon: "https://github.com/apache.png" } /* Apache Avatar (Kafka) */
+            { name: "Snowflake", icon: "/images/services/Snowflake_Logo.svg" },
+            { name: "Databricks", icon: "/images/services/Databricks_Logo.png" },
+            { name: "PowerBI", icon: "/images/services/New_Power_BI_Logo.svg" },
+            { name: "Tableau", icon: "/images/services/Tableau_Logo.png" },
+            { name: "Python", icon: "/images/services/Python-logo-notext.svg" },
+            { name: "dbt", icon: "/images/services/dbt-labs.png" }, /* Official dbt Avatar */
+            { name: "Apache Spark", icon: "/images/services/Apache_Spark_logo.svg" },
+            { name: "Kafka", icon: "/images/services/apache.png" } /* Apache Avatar (Kafka) */
         ],
 
         roi: {
@@ -894,25 +894,25 @@ export const servicesContent = {
                 step: 1,
                 title: "Audit & Strategy",
                 description: "Assessing your current data maturity and designing the target architecture.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551288049-bebda4e38f71.jpg"
             },
             {
                 step: 2,
                 title: "Ingest & Store",
                 description: "Setting up pipelines to move data from silos to a central lakehouse.",
-                image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1544383835-bda2bc66a55d.jpg"
             },
             {
                 step: 3,
                 title: "Transform & Model",
                 description: "Cleaning and modeling data (dbt) to make it ready for analysis.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551288049-bebda4e38f71.jpg"
             },
             {
                 step: 4,
                 title: "Visualize & Act",
                 description: "Building the dashboards and ML models that drive business action.",
-                image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                image: "/images/services/unsplash-1551288049-bebda4e38f71.jpg"
             }
         ],
 
@@ -943,13 +943,13 @@ export const servicesContent = {
                 quote: "We finally have a single source of truth. No more arguing over whose spreadsheet is right.",
                 author: "Mark S.",
                 role: "CFO, Logistics Co",
-                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1472099645785-5658abf4ff4e.jpg"
             },
             {
                 quote: "The predictive churn model saved us $2M in revenue in the first quarter alone.",
                 author: "Sarah J.",
                 role: "VP Marketing, Telecom",
-                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200"
+                image: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg"
             }
         ],
 
@@ -963,11 +963,11 @@ export const servicesContent = {
         category: "Infrastructure",
         title: "Cloud Migration",
         subtitle: "Seamlessly move your legacy workloads to the cloud with zero downtime (6 Rs strategy).",
-        heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000", /* Earth/Cloud */
+        heroImage: "/images/services/unsplash-1451187580459-43490279c0fa.jpg", /* Earth/Cloud */
 
         overview: {
             text: "Legacy systems hold you back. We specialize in lifting, shifting, and refactoring on-premise infrastructure to AWS, Azure, or GCP. Our '6 Rs' framework ensures every application finds its perfect cloud home, optimizing for cost, performance, and security during transit.",
-            image: "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&q=80&w=1200", /* Server Room/Abstract */
+            image: "/images/services/unsplash-1483478550801-ceba5fe50e8e.jpg", /* Server Room/Abstract */
             benefits: [
                 "30-50% TCO Reduction",
                 "Elastic Scalability on Demand",
@@ -987,14 +987,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "AWS", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-            { name: "Azure", icon: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" },
-            { name: "Google Cloud", icon: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" },
-            { name: "Docker", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" },
-            { name: "Kubernetes", icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" },
-            { name: "Terraform", icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" },
-            { name: "VMware", icon: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg" },
-            { name: "Linux", icon: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" }
+            { name: "AWS", icon: "/images/services/Amazon_Web_Services_Logo.svg" },
+            { name: "Azure", icon: "/images/services/Microsoft_Azure.svg" },
+            { name: "Google Cloud", icon: "/images/services/Google_Cloud_logo.svg" },
+            { name: "Docker", icon: "/images/services/Docker__28container_engine_29_logo.svg" },
+            { name: "Kubernetes", icon: "/images/services/Kubernetes_logo_without_workmark.svg" },
+            { name: "Terraform", icon: "/images/services/Terraform_Logo.svg" },
+            { name: "VMware", icon: "/images/services/Vmware.svg" },
+            { name: "Linux", icon: "/images/services/Tux.svg" }
         ],
 
         roi: {
@@ -1034,8 +1034,8 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We closed our data center 6 months ahead of schedule. Flawless execution.", author: "David K.", role: "CTO, Retail Giant", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200" },
-            { quote: "The move to AWS saved us $1.2M annually in hardware refresh costs.", author: "Lisa M.", role: "VP Ops, FinServ", image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We closed our data center 6 months ahead of schedule. Flawless execution.", author: "David K.", role: "CTO, Retail Giant", image: "/images/services/unsplash-1560250097-0b93528c311a.jpg" },
+            { quote: "The move to AWS saved us $1.2M annually in hardware refresh costs.", author: "Lisa M.", role: "VP Ops, FinServ", image: "/images/services/unsplash-1573497019940-1c28c88b4f3e.jpg" }
         ],
         faq: [
             { question: "Will we have downtime?", answer: "We aim for zero-downtime using blue/green deployment strategies during cutover." },
@@ -1048,11 +1048,11 @@ export const servicesContent = {
         category: "Infrastructure",
         title: "Multi-Cloud Strategy",
         subtitle: "Avoid vendor lock-in and maximize reliability with a unified multi-cloud architecture.",
-        heroImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=2000", /* Matrix/Network */
+        heroImage: "/images/services/unsplash-1526374965328-7f61d4dc18c5.jpg", /* Matrix/Network */
 
         overview: {
             text: "Why choose one when you can have the best of all? We design robust multi-cloud environments that allow you to run workloads where they run best—whether that's AI on GCP, Windows apps on Azure, or serverless on AWS. We unify management through Terraform and Kubernetes, giving you a 'single pane of glass' control plane.",
-            image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&q=80&w=1200", /* Servers/Connections */
+            image: "/images/services/unsplash-1414235077428-338989a2e8c0.jpg", /* Servers/Connections */
             benefits: [
                 "Zero Vendor Lock-in",
                 "Best-of-Breed Services",
@@ -1072,14 +1072,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Terraform", icon: "https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" },
-            { name: "Kubernetes", icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" },
-            { name: "Ansible", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.svg" },
-            { name: "Prometheus", icon: "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" },
-            { name: "Grafana", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a1/Grafana_logo.svg" },
-            { name: "GitLab", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e1/GitLab_logo.svg" },
-            { name: "HashiCorp Vault", icon: "https://www.vectorlogo.zone/logos/hashicorp/hashicorp-icon.svg" },
-            { name: "Istio", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Istio_logo.svg" }
+            { name: "Terraform", icon: "/images/services/Terraform_Logo.svg" },
+            { name: "Kubernetes", icon: "/images/services/Kubernetes_logo_without_workmark.svg" },
+            { name: "Ansible", icon: "/images/services/1024px-ChatGPT_logo.svg.png" },
+            { name: "Prometheus", icon: "/images/services/Prometheus_software_logo.svg" },
+            { name: "Grafana", icon: "/images/services/Grafana_logo.svg" },
+            { name: "GitLab", icon: "/images/services/GitLab_logo.svg" },
+            { name: "HashiCorp Vault", icon: "/images/services/hashicorp-icon.svg" },
+            { name: "Istio", icon: "/images/services/1024px-OpenAI_Logo.svg.png" }
         ],
 
         roi: {
@@ -1118,7 +1118,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "When AWS had an outage, we failed over to Azure in 3 minutes. Zero customer impact.", author: "James R.", role: "VP Eng, SaaS Co", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200" }
+            { quote: "When AWS had an outage, we failed over to Azure in 3 minutes. Zero customer impact.", author: "James R.", role: "VP Eng, SaaS Co", image: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg" }
         ],
         faq: [
             { question: "Is multi-cloud harder to manage?", answer: "It can be, which is why we implement unified control planes like Kubernetes/Rancher." },
@@ -1130,11 +1130,11 @@ export const servicesContent = {
         category: "Infrastructure",
         title: "Serverless Architecture",
         subtitle: "Build apps that scale to zero and handle millions of requests without managing a single server.",
-        heroImage: "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=2000", /* Lightning/Abstract */
+        heroImage: "/images/services/unsplash-1451187580459-43490279c0fa.jpg", /* Lightning/Abstract */
 
         overview: {
             text: "Stop paying for idle time. Serverless architecture allows you to run code only when an event triggers it—be it an API call, a database change, or a file upload. We build event-driven systems using AWS Lambda, Azure Functions, and Google Cloud Run that automatically scale from zero to infinity, dramatically reducing operational overhead.",
-            image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200", /* Tech/Code */
+            image: "/images/services/unsplash-1550751827-4bd374c3f58b.jpg", /* Tech/Code */
             benefits: [
                 "Pay Only for Execution Time",
                 "Instant Infinite Scaling",
@@ -1154,14 +1154,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "AWS Lambda", icon: "https://upload.wikimedia.org/wikipedia/commons/8/8f/AWS_Lambda_Architecture_Logo.svg" },
-            { name: "Azure Functions", icon: "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" },
-            { name: "Google Cloud Run", icon: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg" },
-            { name: "Vercel", icon: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" },
-            { name: "Netlify", icon: "https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" },
-            { name: "DynamoDB", icon: "https://upload.wikimedia.org/wikipedia/commons/f/fd/DynamoDB.png" },
-            { name: "MongoDB", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" },
-            { name: "Node.js", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" }
+            { name: "AWS Lambda", icon: "/images/services/AWS_Lambda_Architecture_Logo.svg" },
+            { name: "Azure Functions", icon: "/images/services/microsoft_azure-icon.svg" },
+            { name: "Google Cloud Run", icon: "/images/services/Google_Cloud_logo.svg" },
+            { name: "Vercel", icon: "/images/services/Vercel_logo_black.svg" },
+            { name: "Netlify", icon: "/images/services/netlify-icon.svg" },
+            { name: "DynamoDB", icon: "/images/services/DynamoDB.png" },
+            { name: "MongoDB", icon: "/images/services/MongoDB_Logo.svg" },
+            { name: "Node.js", icon: "/images/services/Node.js_logo.svg" }
         ],
 
         roi: {
@@ -1201,7 +1201,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We scaled to 1M users in a week and our bill was $50. Serverless is magic.", author: "Ben T.", role: "Founder, Viral App", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We scaled to 1M users in a week and our bill was $50. Serverless is magic.", author: "Ben T.", role: "Founder, Viral App", image: "/images/services/unsplash-1506794778202-cad84cf45f1d.jpg" }
         ],
         faq: [
             { question: "What about cold starts?", answer: "We optimize package sizes and use provisioned concurrency to eliminate perceived lag." },
@@ -1213,11 +1213,11 @@ export const servicesContent = {
         category: "Infrastructure",
         title: "Enterprise Networking",
         subtitle: "Next-gen connectivity, SD-WAN, and SASE security for the distributed workforce.",
-        heroImage: "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=2000", /* Network/Lights */
+        heroImage: "/images/services/unsplash-1451187580459-43490279c0fa.jpg", /* Network/Lights */
 
         overview: {
             text: "The perimeter is gone. Modern networking is about connecting users to apps securely, regardless of location. We architect software-defined networks (SD-WAN) and Secure Access Service Edge (SASE) solutions that replace clunky VPNs with fast, zero-trust connectivity. We ensure your data flows smoothly and securely across the globe.",
-            image: "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=1200", /* Cables/Tech */
+            image: "/images/services/unsplash-1517433456452-f9633a875f6f.jpg", /* Cables/Tech */
             benefits: [
                 "Zero Trust Network Access (ZTNA)",
                 "SD-WAN Optimization",
@@ -1237,14 +1237,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Cisco", icon: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" },
-            { name: "Juniper", icon: "https://upload.wikimedia.org/wikipedia/commons/2/23/Juniper_Networks_logo.svg" },
-            { name: "Palo Alto", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Palo_Alto_Networks_logo.svg" },
-            { name: "Cloudflare", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg" },
-            { name: "Fortinet", icon: "https://upload.wikimedia.org/wikipedia/commons/8/87/Fortinet_logo.svg" },
-            { name: "Aruba", icon: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Aruba_Networks_logo.svg" },
-            { name: "Zscaler", icon: "https://www.vectorlogo.zone/logos/zscaler/zscaler-icon.svg" },
-            { name: "Meraki", icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Meraki_Logo.svg" }
+            { name: "Cisco", icon: "/images/services/Cisco_logo.svg" },
+            { name: "Juniper", icon: "/images/services/Juniper_Networks_logo.svg" },
+            { name: "Palo Alto", icon: "/images/services/Palo_Alto_Networks_logo.svg" },
+            { name: "Cloudflare", icon: "/images/services/Cloudflare_Logo.svg" },
+            { name: "Fortinet", icon: "/images/services/Fortinet_logo.svg" },
+            { name: "Aruba", icon: "/images/services/Aruba_Networks_logo.svg" },
+            { name: "Zscaler", icon: "/images/services/zscaler-icon.svg" },
+            { name: "Meraki", icon: "/images/services/Akamai_logo.svg" }
         ],
 
         roi: {
@@ -1284,7 +1284,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Our remote team says the new ZTNA solution feels like being in the office. Fast and easy.", author: "Karen W.", role: "CIO, Healthcare", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Our remote team says the new ZTNA solution feels like being in the office. Fast and easy.", author: "Karen W.", role: "CIO, Healthcare", image: "/images/services/unsplash-1580489944761-15a19d654956.jpg" }
         ],
         faq: [
             { question: "Can we keep some MPLS?", answer: "Yes, Hybrid WAN is a common transition strategy we support." },
@@ -1296,11 +1296,11 @@ export const servicesContent = {
         category: "Infrastructure",
         title: "Web Hosting & CDN",
         subtitle: "Global content delivery with sub-second load times and 100% uptime SLA.",
-        heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000", /* Server/Speed */
+        heroImage: "/images/services/unsplash-1550751827-4bd374c3f58b.jpg", /* Server/Speed */
 
         overview: {
             text: "Speed is a feature. We engineer high-performance hosting solutions using global Content Delivery Networks (CDNs) and Edge Computing. Whether it's a static marketing site or a dynamic web app, we ensure your content reaches users instantly, anywhere in the world. We handle the SSL, the DDoS protection, and the scaling so you don't have to.",
-            image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200", /* Globe/Speed */
+            image: "/images/services/unsplash-1451187580459-43490279c0fa.jpg", /* Globe/Speed */
             benefits: [
                 "Global Edge Network (250+ PoPs)",
                 "DDoS Protection Included",
@@ -1320,14 +1320,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Cloudflare", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg" },
-            { name: "Akamai", icon: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Akamai_logo.svg" },
-            { name: "Fastly", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fastly_logo.svg" },
-            { name: "AWS CloudFront", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-            { name: "Nginx", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg" },
-            { name: "Varnish", icon: "https://upload.wikimedia.org/wikipedia/commons/2/28/Varnish_Software_logo_2017.svg" },
-            { name: "WordPress", icon: "https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" },
-            { name: "Jamstack", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Jamstack_icon_original.svg" }
+            { name: "Cloudflare", icon: "/images/services/Cloudflare_Logo.svg" },
+            { name: "Akamai", icon: "/images/services/Akamai_logo.svg" },
+            { name: "Fastly", icon: "/images/services/Fastly_logo.svg" },
+            { name: "AWS CloudFront", icon: "/images/services/Amazon_Web_Services_Logo.svg" },
+            { name: "Nginx", icon: "/images/services/Nginx_logo.svg" },
+            { name: "Varnish", icon: "/images/services/Varnish_Software_logo_2017.svg" },
+            { name: "WordPress", icon: "/images/services/WordPress_blue_logo.svg" },
+            { name: "Jamstack", icon: "/images/services/Amazon_Web_Services_Logo.svg" }
         ],
 
         roi: {
@@ -1367,7 +1367,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Our LCP (Largest Contentful Paint) dropped to 0.8s globally. Amazing performance.", author: "Tom B.", role: "Web Lead, Agency", image: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Our LCP (Largest Contentful Paint) dropped to 0.8s globally. Amazing performance.", author: "Tom B.", role: "Web Lead, Agency", image: "/images/services/unsplash-1542909168-82c3e7fdca5c.jpg" }
         ],
         faq: [
             { question: "Do you support WordPress?", answer: "Yes, we have a specialized high-performance stack for WP." },
@@ -1378,11 +1378,11 @@ export const servicesContent = {
         category: "Security",
         title: "Zero Trust Architecture",
         subtitle: "Never trust, always verify. Securing your workforce, workloads, and workplace with identity-centric security.",
-        heroImage: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=2000", /* Lock/Security */
+        heroImage: "/images/services/unsplash-1555949963-ff9fe0c870eb.jpg", /* Lock/Security */
 
         overview: {
             text: "Traditional perimeter security is dead. In a world of remote work and cloud apps, identity is the new firewall. We implement Zero Trust Architectures (ZTA) that enforce least-privilege access, simplify user sign-on, and prevent lateral movement. Whether you’re accessing a legacy app or a SaaS platform, every request is verified, every time.",
-            image: "https://images.unsplash.com/photo-1614064641938-3bcee5297129?auto=format&fit=crop&q=80&w=1200", /* Shield/Lock */
+            image: "/images/services/unsplash-1472099645785-5658abf4ff4e.jpg", /* Shield/Lock */
             benefits: [
                 "Eliminate VPN Reliance",
                 "Prevent Lateral Movement",
@@ -1402,13 +1402,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Okta", icon: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Okta_logo.svg" },
-            { name: "Zscaler", icon: "https://www.vectorlogo.zone/logos/zscaler/zscaler-icon.svg" },
-            { name: "Palo Alto Networks", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Palo_Alto_Networks_logo.svg" },
-            { name: "CrowdStrike", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/CrowdStrike_logo.svg" },
-            { name: "HashiCorp Boundary", icon: "https://www.vectorlogo.zone/logos/hashicorp/hashicorp-icon.svg" },
-            { name: "Microsoft Entra", icon: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" }, /* Using Azure icon which represents Entra/AD suite well */
-            { name: "Cloudflare Access", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg" }
+            { name: "Okta", icon: "/images/services/Okta_logo.svg" },
+            { name: "Zscaler", icon: "/images/services/zscaler-icon.svg" },
+            { name: "Palo Alto Networks", icon: "/images/services/Palo_Alto_Networks_logo.svg" },
+            { name: "CrowdStrike", icon: "/images/services/CrowdStrike_logo.svg" },
+            { name: "HashiCorp Boundary", icon: "/images/services/hashicorp-icon.svg" },
+            { name: "Microsoft Entra", icon: "/images/services/Microsoft_Azure.svg" }, /* Using Azure icon which represents Entra/AD suite well */
+            { name: "Cloudflare Access", icon: "/images/services/Cloudflare_Logo.svg" }
         ],
 
         roi: {
@@ -1448,7 +1448,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Onboarding used to take a week. With Zero Trust, new hires have access in 5 minutes.", author: "Mike R.", role: "CISO, Fintech", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Onboarding used to take a week. With Zero Trust, new hires have access in 5 minutes.", author: "Mike R.", role: "CISO, Fintech", image: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg" }
         ],
         faq: [
             { question: "Is this just for large corps?", answer: "No, even startups need to secure their SaaS apps (Google Workspace, Slack, AWS)." },
@@ -1460,11 +1460,11 @@ export const servicesContent = {
         category: "Security",
         title: "SOC & SIEM Services",
         subtitle: "24/7/365 threat monitoring, detection, and automated response.",
-        heroImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2000", /* Matrix/Ops */
+        heroImage: "/images/services/unsplash-1550751827-4bd374c3f58b.jpg", /* Matrix/Ops */
 
         overview: {
             text: "Sleep soundly while our Security Operations Center (SOC) watches the wall. We aggregate logs from every corner of your estate—cloud, endpoint, network, identity—into a next-gen SIEM. Our AI-driven detection engine spots anomalies in real-time, and our SOAR playbooks shut down threats before they become breaches.",
-            image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=1200", /* Digital Map */
+            image: "/images/services/unsplash-1563986768609-322da13575f3.jpg", /* Digital Map */
             benefits: [
                 "24/7 Eyes on Glass",
                 "Automated Threat Containment",
@@ -1484,13 +1484,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Splunk", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Splunk_Logo.svg" },
-            { name: "Datadog", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Datadog_logo.svg" },
-            { name: "Elastic Security", icon: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Elasticsearch_logo_colored_2014.svg" },
-            { name: "Sumo Logic", icon: "https://www.vectorlogo.zone/logos/sumologic/sumologic-icon.svg" },
-            { name: "Microsoft Sentinel", icon: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" },
-            { name: "CrowdStrike", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/CrowdStrike_logo.svg" },
-            { name: "Wiz", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wiz_logo.svg" }
+            { name: "Splunk", icon: "/images/services/Splunk_Logo.svg" },
+            { name: "Datadog", icon: "/images/services/Datadog_logo.svg" },
+            { name: "Elastic Security", icon: "/images/services/Elasticsearch_logo_colored_2014.svg" },
+            { name: "Sumo Logic", icon: "/images/services/sumologic-icon.svg" },
+            { name: "Microsoft Sentinel", icon: "/images/services/Microsoft_Azure.svg" },
+            { name: "CrowdStrike", icon: "/images/services/CrowdStrike_logo.svg" },
+            { name: "Wiz", icon: "/images/services/Wiz_logo.svg" }
         ],
 
         roi: {
@@ -1530,7 +1530,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "The team caught a credential stuffing attack at 2AM on a Sunday. Saved us millions.", author: "Sarah L.", role: "CTO, Healthcare", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200" }
+            { quote: "The team caught a credential stuffing attack at 2AM on a Sunday. Saved us millions.", author: "Sarah L.", role: "CTO, Healthcare", image: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg" }
         ],
         faq: [
             { question: "Do I need a SIEM?", answer: "If you have compliance requirements (PCI, HIPAA, SOC2) or care about visibility, yes." },
@@ -1542,11 +1542,11 @@ export const servicesContent = {
         category: "Security",
         title: "Endpoint Protection",
         subtitle: "Stop malware, ransomware, and fileless attacks with AI-driven EDR/XDR.",
-        heroImage: "https://images.unsplash.com/photo-1563206767-5b1d972d9323?auto=format&fit=crop&q=80&w=2000", /* Shield/Code */
+        heroImage: "/images/services/unsplash-1473341304170-971dccb5ac1e.jpg", /* Shield/Code */
 
         overview: {
             text: "Antivirus is obsolete. Today's threats don't always use files; they use memory, scripts, and trusted system tools. We deploy robust Endpoint Detection and Response (EDR) agents that monitor behavior, not just signatures. If a laptop gets infected, we isolate it from the network instantly, preventing the spread of ransomware.",
-            image: "https://images.unsplash.com/photo-1590494860768-ff99a08ce1d9?auto=format&fit=crop&q=80&w=1200", /* Laptop/Lock */
+            image: "/images/services/unsplash-1483478550801-ceba5fe50e8e.jpg", /* Laptop/Lock */
             benefits: [
                 "Next-Gen Antivirus (NGAV)",
                 "Ransomware Rollback",
@@ -1566,13 +1566,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "CrowdStrike", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/CrowdStrike_logo.svg" },
-            { name: "SentinelOne", icon: "https://upload.wikimedia.org/wikipedia/commons/6/67/SentinelOne_logo.svg" },
-            { name: "Microsoft Defender", icon: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_Defender_Security_Center.svg" },
-            { name: "Carbon Black", icon: "https://www.vectorlogo.zone/logos/vmware_carbonblack/vmware_carbonblack-icon.svg" },
-            { name: "Sophos", icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Sophos_logo.svg" },
-            { name: "Trend Micro", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Trend_Micro_logo.svg" },
-            { name: "Jamf", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Jamf_Logo.svg" }
+            { name: "CrowdStrike", icon: "/images/services/CrowdStrike_logo.svg" },
+            { name: "SentinelOne", icon: "/images/services/SentinelOne_logo.svg" },
+            { name: "Microsoft Defender", icon: "/images/services/Microsoft_Defender_Security_Center.svg" },
+            { name: "Carbon Black", icon: "/images/services/vmware_carbonblack-icon.svg" },
+            { name: "Sophos", icon: "/images/services/Sophos_logo.svg" },
+            { name: "Trend Micro", icon: "/images/services/Trend_Micro_logo.svg" },
+            { name: "Jamf", icon: "/images/services/Jamf_Logo.svg" }
         ],
 
         roi: {
@@ -1612,7 +1612,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "SentinelOne rolled back a ransomware attack on our HR laptop in 30 seconds. Incredible.", author: "James T.", role: "SysAdmin, Logistics", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" }
+            { quote: "SentinelOne rolled back a ransomware attack on our HR laptop in 30 seconds. Incredible.", author: "James T.", role: "SysAdmin, Logistics", image: "/images/services/unsplash-1507003211169-0a1dd7228f2d.jpg" }
         ],
         faq: [
             { question: "Does it slow down PCs?", answer: "No, modern agents are lightweight (<1% CPU) compared to legacy bloatware." },
@@ -1624,11 +1624,11 @@ export const servicesContent = {
         category: "Security",
         title: "Cloud Security (CNAPP)",
         subtitle: "Complete visibility and protection for your AWS, Azure, and GCP environments.",
-        heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2000", /* Cloud/Globe */
+        heroImage: "/images/services/unsplash-1451187580459-43490279c0fa.jpg", /* Cloud/Globe */
 
         overview: {
             text: "Cloud security is complex; misconfigurations are the #1 cause of breaches. We deploy Cloud Native Application Protection Platforms (CNAPP) that scan your entire cloud estate agentlessly. We find open S3 buckets, over-privileged IAM roles, and unpatched containers instantly. Secure your build pipeline and your runtime environment.",
-            image: "https://images.unsplash.com/photo-1544197150-b99a580bbcbf?auto=format&fit=crop&q=80&w=1200", /* Cloud/Lock */
+            image: "/images/services/unsplash-1485827404703-89b55fcc595e.jpg", /* Cloud/Lock */
             benefits: [
                 "Agentless Scanning",
                 "Graph-based Risk Context",
@@ -1648,13 +1648,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Wiz", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wiz_logo.svg" },
-            { name: "Prisma Cloud", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Palo_Alto_Networks_logo.svg" },
-            { name: "Orca Security", icon: "https://upload.wikimedia.org/wikipedia/en/2/21/Orca_Security_Logo.svg" },
-            { name: "Lacework", icon: "https://upload.wikimedia.org/wikipedia/commons/0/07/Lacework_logo_2024.svg" },
-            { name: "Snyk", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Snyk_logo.svg" },
-            { name: "Aqua Security", icon: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Aqua_Security_logo.svg" },
-            { name: "AWS Security Hub", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" }
+            { name: "Wiz", icon: "/images/services/Wiz_logo.svg" },
+            { name: "Prisma Cloud", icon: "/images/services/Palo_Alto_Networks_logo.svg" },
+            { name: "Orca Security", icon: "/images/services/Aruba_Networks_logo.svg" },
+            { name: "Lacework", icon: "/images/services/Lacework_logo_2024.svg" },
+            { name: "Snyk", icon: "/images/services/Snyk_logo.svg" },
+            { name: "Aqua Security", icon: "/images/services/Aqua_Security_logo.svg" },
+            { name: "AWS Security Hub", icon: "/images/services/Amazon_Web_Services_Logo.svg" }
         ],
 
         roi: {
@@ -1694,7 +1694,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Wiz showed us that our 'private' database was actually exposed via a load balancer. Scariest value add ever.", author: "Alex D.", role: "Cloud Architect", image: "https://images.unsplash.com/photo-1542596594-649edbc13630?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Wiz showed us that our 'private' database was actually exposed via a load balancer. Scariest value add ever.", author: "Alex D.", role: "Cloud Architect", image: "/images/services/unsplash-1542596594-649edbc13630.jpg" }
         ],
         faq: [
             { question: "Do you need root access?", answer: "No, we use read-only APIs to scan disk snapshots and metadata." },
@@ -1706,11 +1706,11 @@ export const servicesContent = {
         category: "Security",
         title: "Compliance & GRC",
         subtitle: "Automate your SOC2, HIPAA, and ISO 27001 journey. Get audit-ready in weeks.",
-        heroImage: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=2000", /* Paperwork/Pen */
+        heroImage: "/images/services/unsplash-1450101499163-c8848c66ca85.jpg", /* Paperwork/Pen */
 
         overview: {
             text: "Compliance doesn't have to be a nightmare of spreadsheets and screenshots. We implement automated GRC (Governance, Risk, and Compliance) platforms that connect to your infrastructure and continuously monitor controls. We help you achieve SOC2, HIPAA, GDPR, and ISO 27001 certification faster, closing deals with enterprise clients.",
-            image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=1200", /* Meeting/Audit */
+            image: "/images/services/unsplash-1554224155-8d04cb21cd6c.jpg", /* Meeting/Audit */
             benefits: [
                 "Automated Evidence Collection",
                 "Continuous Control Monitoring",
@@ -1730,12 +1730,12 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Drata", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Drata_Logo.svg" },
-            { name: "Vanta", icon: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Vanta_logo.svg" },
-            { name: "OneTrust", icon: "https://upload.wikimedia.org/wikipedia/commons/8/80/OneTrust_logo.svg" },
-            { name: "Sprig", icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Sprig_Logo.svg" }, /* Generic GRC */
-            { name: "AWS Audit Manager", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-            { name: "KnowBe4", icon: "https://upload.wikimedia.org/wikipedia/commons/9/9c/KnowBe4_logo.svg" }
+            { name: "Drata", icon: "/images/services/Drata_Logo.svg" },
+            { name: "Vanta", icon: "/images/services/Vanta_logo.svg" },
+            { name: "OneTrust", icon: "/images/services/OneTrust_logo.svg" },
+            { name: "Sprig", icon: "/images/services/Sprig_Logo.svg" }, /* Generic GRC */
+            { name: "AWS Audit Manager", icon: "/images/services/Amazon_Web_Services_Logo.svg" },
+            { name: "KnowBe4", icon: "/images/services/KnowBe4_logo.svg" }
         ],
 
         roi: {
@@ -1775,7 +1775,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We got SOC2 Type 1 certified in 3 weeks using this platform. Our enterprise pipeline unlocked overnight.", author: "Daniel H.", role: "CEO, SaaS Startup", image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We got SOC2 Type 1 certified in 3 weeks using this platform. Our enterprise pipeline unlocked overnight.", author: "Daniel H.", role: "CEO, SaaS Startup", image: "/images/services/unsplash-1599566150163-29194dcaad36.jpg" }
         ],
         faq: [
             { question: "Does this replace an auditor?", answer: "No, you still need a CPA firm (like Coalfire/Schellman), but this makes their job 10x faster." },
@@ -1786,11 +1786,11 @@ export const servicesContent = {
         category: "Engineering",
         title: "App Modernization",
         subtitle: "Transform legacy monoliths into cloud-native microservices. Scalable, resilient, and ready for the future.",
-        heroImage: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&q=80&w=2000", /* Code/Refactor */
+        heroImage: "/images/services/unsplash-1555099962-4199c345e5dd.jpg", /* Code/Refactor */
 
         overview: {
             text: "Legacy code is technical debt that creates risk. We don't just 'lift and shift'; we modernize. Using the Strangler Fig pattern, we incrementally refactor monolithic applications into containerized microservices. This improves maintainability, allows for independent scaling, and enables you to deploy new features in hours, not months.",
-            image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200", /* Coding/Screen */
+            image: "/images/services/unsplash-1461749280684-dccba630e2f6.jpg", /* Coding/Screen */
             benefits: [
                 "Eliminate Technical Debt",
                 "Scalable Microservices",
@@ -1810,14 +1810,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Docker", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" },
-            { name: "Kubernetes", icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" },
-            { name: "PostgreSQL", icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
-            { name: "MongoDB", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" },
-            { name: "Redis", icon: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Redis_Logo.svg" },
-            { name: "Kafka", icon: "https://cdn.simpleicons.org/apachekafka/white" },
-            { name: "Spring Boot", icon: "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg" },
-            { name: ".NET Core", icon: "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" }
+            { name: "Docker", icon: "/images/services/Docker__28container_engine_29_logo.svg" },
+            { name: "Kubernetes", icon: "/images/services/Kubernetes_logo_without_workmark.svg" },
+            { name: "PostgreSQL", icon: "/images/services/Postgresql_elephant.svg" },
+            { name: "MongoDB", icon: "/images/services/MongoDB_Logo.svg" },
+            { name: "Redis", icon: "/images/services/Redis_Logo.svg" },
+            { name: "Kafka", icon: "/images/services/asset-55.jpg" },
+            { name: "Spring Boot", icon: "/images/services/Spring_Framework_Logo_2018.svg" },
+            { name: ".NET Core", icon: "/images/services/.NET_Core_Logo.svg" }
         ],
 
         roi: {
@@ -1857,7 +1857,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We couldn't release features because of regression testing. Modernization unlocked our roadmap.", author: "Eric P.", role: "VP Eng, Insurance", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We couldn't release features because of regression testing. Modernization unlocked our roadmap.", author: "Eric P.", role: "VP Eng, Insurance", image: "/images/services/unsplash-1560250097-0b93528c311a.jpg" }
         ],
         faq: [
             { question: "Do we have to rewrite everything?", answer: "No, we use the Strangler Pattern to migrate gradually, reducing risk." },
@@ -1869,11 +1869,11 @@ export const servicesContent = {
         category: "Engineering",
         title: "Web & Mobile Development",
         subtitle: "High-performance consumer facing apps built with React, Next.js, and Flutter.",
-        heroImage: "https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=2000", /* Team/Screen */
+        heroImage: "/images/services/unsplash-1555421689-491a97ff2040.jpg", /* Team/Screen */
 
         overview: {
             text: "Your digital front door matters. We build pixel-perfect, highly responsive web and mobile applications that users love. Whether it's a Progressive Web App (PWA) with offline capabilities or a cross-platform mobile app, we focus on performance (Core Web Vitals), accessibility (WCAG), and conversion.",
-            image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1200", /* Mobile/Design */
+            image: "/images/services/unsplash-1551650975-87deedd944c3.jpg", /* Mobile/Design */
             benefits: [
                 "Cross-Platform (iOS/Android)",
                 "Ultra-Fast Load Times",
@@ -1893,14 +1893,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-            { name: "Next.js", icon: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" }, /* White-friendly version or invert */
-            { name: "TypeScript", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" },
-            { name: "Flutter", icon: "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" },
-            { name: "Node.js", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
-            { name: "GraphQL", icon: "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg" },
-            { name: "Tailwind CSS", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" },
-            { name: "Figma", icon: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" }
+            { name: "React", icon: "/images/services/React-icon.svg" },
+            { name: "Next.js", icon: "/images/services/Nextjs-logo.svg" }, /* White-friendly version or invert */
+            { name: "TypeScript", icon: "/images/services/Typescript_logo_2020.svg" },
+            { name: "Flutter", icon: "/images/services/Google-flutter-logo.png" },
+            { name: "Node.js", icon: "/images/services/Node.js_logo.svg" },
+            { name: "GraphQL", icon: "/images/services/GraphQL_Logo.svg" },
+            { name: "Tailwind CSS", icon: "/images/services/Tailwind_CSS_Logo.svg" },
+            { name: "Figma", icon: "/images/services/Figma-logo.svg" }
         ],
 
         roi: {
@@ -1940,7 +1940,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Our mobile app feels native but was built in half the time using Flutter. Amazing work.", author: "Jessica K.", role: "Product Owner", image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Our mobile app feels native but was built in half the time using Flutter. Amazing work.", author: "Jessica K.", role: "Product Owner", image: "/images/services/unsplash-1573497019940-1c28c88b4f3e.jpg" }
         ],
         faq: [
             { question: "Why React?", answer: "It's the industry standard, ensuring you can always find developers to maintain it." },
@@ -1952,11 +1952,11 @@ export const servicesContent = {
         category: "Engineering",
         title: "DevSecOps",
         subtitle: "Automate code delivery and bake security into every commit.",
-        heroImage: "https://images.unsplash.com/photo-1667372393119-c81c0cda0a63?auto=format&fit=crop&q=80&w=2000", /* Pipeline/Abstract */
+        heroImage: "/images/services/unsplash-1498084393753-b411b2d26b34.jpg", /* Pipeline/Abstract */
 
         overview: {
             text: "Stop throwing code over the wall. We implement world-class DevSecOps pipelines that automate testing, security scanning, and deployment. By shifting security left, we catch vulnerabilities during development, not after deployment. Our goal is enabling you to push code to production multiple times a day with total confidence.",
-            image: "https://images.unsplash.com/photo-1607799275518-d58665d096c5?auto=format&fit=crop&q=80&w=1200", /* CI/CD */
+            image: "/images/services/unsplash-1500648767791-00dcc994a43e.jpg", /* CI/CD */
             benefits: [
                 "Automated CI/CD Pipelines",
                 "Infrastructure as Code (IaC)",
@@ -1976,14 +1976,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Jenkins", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" },
-            { name: "GitLab CI", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e1/GitLab_logo.svg" },
-            { name: "GitHub Actions", icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" },
-            { name: "SonarQube", icon: "https://www.vectorlogo.zone/logos/sonarqube/sonarqube-icon.svg" },
-            { name: "Prometheus", icon: "https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" },
-            { name: "Ansible", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ansible_Logo.svg" },
-            { name: "HashiCorp Vault", icon: "https://www.vectorlogo.zone/logos/hashicorp/hashicorp-icon.svg" },
-            { name: "ArgoCD", icon: "https://upload.wikimedia.org/wikipedia/commons/6/6a/Argo-cd.svg" }
+            { name: "Jenkins", icon: "/images/services/Jenkins_logo.svg" },
+            { name: "GitLab CI", icon: "/images/services/GitLab_logo.svg" },
+            { name: "GitHub Actions", icon: "/images/services/Octicons-mark-github.svg" },
+            { name: "SonarQube", icon: "/images/services/sonarqube-icon.svg" },
+            { name: "Prometheus", icon: "/images/services/Prometheus_software_logo.svg" },
+            { name: "Ansible", icon: "/images/services/1024px-ChatGPT_logo.svg.png" },
+            { name: "HashiCorp Vault", icon: "/images/services/hashicorp-icon.svg" },
+            { name: "ArgoCD", icon: "/images/services/Argo-cd.svg" }
         ],
 
         roi: {
@@ -2023,7 +2023,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Our lead time for changes went from 3 weeks to 4 hours. Game changer.", author: "Maria G.", role: "Director of Eng", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Our lead time for changes went from 3 weeks to 4 hours. Game changer.", author: "Maria G.", role: "Director of Eng", image: "/images/services/unsplash-1580489944761-15a19d654956.jpg" }
         ],
         faq: [
             { question: "What is GitOps?", answer: "It means using Git as the single source of truth for your infrastructure." },
@@ -2035,11 +2035,11 @@ export const servicesContent = {
         category: "Engineering",
         title: "Managed IT Services",
         subtitle: "Proactive, reliable IT support. We manage your tech so you can manage your business.",
-        heroImage: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=2000", /* Office/Team */
+        heroImage: "/images/services/unsplash-1542744173-8e7e53415bb0.jpg", /* Office/Team */
 
         overview: {
             text: "Downtime is expensive. Our Managed IT Services provide comprehensive support for your infrastructure, end-user devices, and software. From 24/7 helpdesk support to automated patch management and asset tracking, we act as your dedicated IT department. We fix problems before you even know they exist.",
-            image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?auto=format&fit=crop&q=80&w=1200", /* Support/Help */
+            image: "/images/services/unsplash-1606857521015-7f9fcf423740.jpg", /* Support/Help */
             benefits: [
                 "24/7/365 Help Desk",
                 "Automated Patching",
@@ -2059,14 +2059,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "ServiceNow", icon: "https://upload.wikimedia.org/wikipedia/commons/1/15/ServiceNow_logo.svg" },
-            { name: "Jira Service Mgmt", icon: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" },
-            { name: "SolarWinds", icon: "https://www.vectorlogo.zone/logos/solarwinds/solarwinds-icon.svg" },
-            { name: "TeamViewer", icon: "https://upload.wikimedia.org/wikipedia/commons/8/87/TeamViewer_Logo_Icon.svg" },
-            { name: "Microsoft 365", icon: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
-            { name: "Slack", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" },
-            { name: "Zoom", icon: "https://upload.wikimedia.org/wikipedia/commons/2/24/Zoom_Communications_Logo.png" },
-            { name: "Kaseya", icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kaseya_Logo.jpg" } /* Might need check, sticking to reliable ones */
+            { name: "ServiceNow", icon: "/images/services/ServiceNow_logo.svg" },
+            { name: "Jira Service Mgmt", icon: "/images/services/Jira_Logo.svg" },
+            { name: "SolarWinds", icon: "/images/services/solarwinds-icon.svg" },
+            { name: "TeamViewer", icon: "/images/services/TeamViewer_Logo_Icon.svg" },
+            { name: "Microsoft 365", icon: "/images/services/Microsoft_logo.svg" },
+            { name: "Slack", icon: "/images/services/Slack_icon_2019.svg" },
+            { name: "Zoom", icon: "/images/services/Zoom_Communications_Logo.png" },
+            { name: "Kaseya", icon: "/images/services/Kaseya_Logo.jpg" } /* Might need check, sticking to reliable ones */
         ],
 
         roi: {
@@ -2106,7 +2106,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "It feels like they are sitting in the office next to us. Super responsive.", author: "Bill M.", role: "CEO, Law Firm", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200" }
+            { quote: "It feels like they are sitting in the office next to us. Super responsive.", author: "Bill M.", role: "CEO, Law Firm", image: "/images/services/unsplash-1472099645785-5658abf4ff4e.jpg" }
         ],
         faq: [
             { question: "How much does it cost?", answer: "We charge a flat fee per user/device per month. No surprises." },
@@ -2118,11 +2118,11 @@ export const servicesContent = {
         category: "Engineering",
         title: "Digital Workplace",
         subtitle: "Enable your team to work from anywhere, securely and collaboratively.",
-        heroImage: "https://images.unsplash.com/photo-1593642632823-8f78536709c6?auto=format&fit=crop&q=80&w=2000", /* WFH/Desk */
+        heroImage: "/images/services/unsplash-1504307651254-35680f356dfd.jpg", /* WFH/Desk */
 
         overview: {
             text: "Work is something you do, not a place you go. We design Digital Workplaces that bridge the gap between physical and remote teams. By integrating Microsoft 365, Slack, Zoom, and VDI solutions, we create a seamless environment where collaboration happens naturally. We ensure the experience is consistent whether on a laptop, tablet, or phone.",
-            image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200", /* Collab/Video */
+            image: "/images/services/unsplash-1600880292203-757bb62b4baf.jpg", /* Collab/Video */
             benefits: [
                 "Unified Collaboration Hub",
                 "Virtual Desktop (VDI/DaaS)",
@@ -2142,14 +2142,14 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Microsoft 365", icon: "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" },
-            { name: "Slack", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" },
-            { name: "Zoom", icon: "https://upload.wikimedia.org/wikipedia/commons/2/24/Zoom_Communications_Logo.png" },
-            { name: "Citrix", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Citrix_Systems_logo.svg" },
-            { name: "Notion", icon: "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" },
-            { name: "Asana", icon: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Asana_logo.svg" },
-            { name: "Google Workspace", icon: "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" },
-            { name: "Dropbox", icon: "https://upload.wikimedia.org/wikipedia/commons/7/78/Dropbox_Icon.svg" }
+            { name: "Microsoft 365", icon: "/images/services/Microsoft_logo.svg" },
+            { name: "Slack", icon: "/images/services/Slack_icon_2019.svg" },
+            { name: "Zoom", icon: "/images/services/Zoom_Communications_Logo.png" },
+            { name: "Citrix", icon: "/images/services/Citrix_Systems_logo.svg" },
+            { name: "Notion", icon: "/images/services/Notion_app_logo.png" },
+            { name: "Asana", icon: "/images/services/Asana_logo.svg" },
+            { name: "Google Workspace", icon: "/images/services/Google__22G_22_Logo.svg" },
+            { name: "Dropbox", icon: "/images/services/Dropbox_Icon.svg" }
         ],
 
         roi: {
@@ -2189,7 +2189,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Slack + Zoom integration changed how we run meetings. No more fumbling for links.", author: "Ryan S.", role: "COO, Media", image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Slack + Zoom integration changed how we run meetings. No more fumbling for links.", author: "Ryan S.", role: "COO, Media", image: "/images/services/unsplash-1519345182560-3f2917c472ef.jpg" }
         ],
         faq: [
             { question: "Is data secure?", answer: "Yes, we wrap everything in MFA and conditional access policies." },
@@ -2200,11 +2200,11 @@ export const servicesContent = {
         category: "Platforms",
         title: "Subsman Platform",
         subtitle: "The complete recurring revenue operating system for modern SaaS.",
-        heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000", /* Dashboard/Finance */
+        heroImage: "/images/services/unsplash-1551288049-bebda4e38f71.jpg", /* Dashboard/Finance */
 
         overview: {
             text: "Scaling a subscription business is hard. Subsman simplifies it. From complex usage-based billing to automated dunning management and global tax compliance, we handle the boring infrastructure so you can focus on product. Our unified dashboard gives you real-time visibility into MRR, Churn, and LTV, helping you make data-driven decisions.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200", /* Analytics/Chart */
+            image: "/images/services/unsplash-1460925895917-afdab827c52f.jpg", /* Analytics/Chart */
             benefits: [
                 "Automated Recurring Billing",
                 "Smart Dunning (Churn Recovery)",
@@ -2224,13 +2224,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Stripe", icon: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg" },
-            { name: "PayPal", icon: "https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" },
-            { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
-            { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-            { name: "AWS Lambda", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-            { name: "PostgreSQL", icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
-            { name: "Docker", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" }
+            { name: "Stripe", icon: "/images/services/Stripe_Logo_2C_revised_2016.svg" },
+            { name: "PayPal", icon: "/images/services/PayPal.svg" },
+            { name: "Python", icon: "/images/services/Python-logo-notext.svg" },
+            { name: "React", icon: "/images/services/React-icon.svg" },
+            { name: "AWS Lambda", icon: "/images/services/Amazon_Web_Services_Logo.svg" },
+            { name: "PostgreSQL", icon: "/images/services/Postgresql_elephant.svg" },
+            { name: "Docker", icon: "/images/services/Docker__28container_engine_29_logo.svg" }
         ],
 
         roi: {
@@ -2270,7 +2270,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We switched to Subsman and recovered $50k in failed payments in the first month alone.", author: "David C.", role: "CFO, Tech Startup", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We switched to Subsman and recovered $50k in failed payments in the first month alone.", author: "David C.", role: "CFO, Tech Startup", image: "/images/services/unsplash-1506794778202-cad84cf45f1d.jpg" }
         ],
         faq: [
             { question: "Is it PCI Compliant?", answer: "Yes, we are Level 1 PCI DSS compliant. We handle the sensitive data so you don't have to." },
@@ -2282,11 +2282,11 @@ export const servicesContent = {
         category: "Platforms",
         title: "Custom CRM Solutions",
         subtitle: "Tailored customer relationship management systems that fit your unique workflow.",
-        heroImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2000", /* Meeting/Table */
+        heroImage: "/images/services/unsplash-1552664730-d307ca884978.jpg", /* Meeting/Table */
 
         overview: {
             text: "Off-the-shelf CRMs like Salesforce are powerful but often bloated and expensive. We build Custom CRM solutions tailored exactly to your business processes. Whether you need a specific sales pipeline, complex inventory integration, or a unique customer portal, we build it. Own your data, own your workflow, and stop paying for features you don't use.",
-            image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1200", /* Handshake/Deal */
+            image: "/images/services/unsplash-1556761175-5973dc0f32e7.jpg", /* Handshake/Deal */
             benefits: [
                 "Perfect Fit Workflow",
                 "No Per-User License Fees",
@@ -2306,13 +2306,13 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "Node.js", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
-            { name: "PostgreSQL", icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" },
-            { name: "Retool", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Retool_logo.png" } /* Need verify or generic code icon */,
-            { name: "Salesforce", icon: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg" },
-            { name: "HubSpot", icon: "https://upload.wikimedia.org/wikipedia/commons/1/15/HubSpot_Logo.png" } /* Careful with png, used often */,
-            { name: "Twilio", icon: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Twilio-logo-red.svg" },
-            { name: "SendGrid", icon: "https://upload.wikimedia.org/wikipedia/commons/2/2b/SendGrid_Logo.png" }
+            { name: "Node.js", icon: "/images/services/Node.js_logo.svg" },
+            { name: "PostgreSQL", icon: "/images/services/Postgresql_elephant.svg" },
+            { name: "Retool", icon: "/images/services/Retool_logo.png" } /* Need verify or generic code icon */,
+            { name: "Salesforce", icon: "/images/services/Salesforce.com_logo.svg" },
+            { name: "HubSpot", icon: "/images/services/HubSpot_Logo.png" } /* Careful with png, used often */,
+            { name: "Twilio", icon: "/images/services/Twilio-logo-red.svg" },
+            { name: "SendGrid", icon: "/images/services/SendGrid_Logo.png" }
         ],
 
         roi: {
@@ -2352,7 +2352,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "Our custom CRM handles our complex commission structure perfectly. Salesforce couldn't do it.", author: "Amanda B.", role: "Sales Director", image: "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&q=80&w=200" }
+            { quote: "Our custom CRM handles our complex commission structure perfectly. Salesforce couldn't do it.", author: "Amanda B.", role: "Sales Director", image: "/images/services/unsplash-1580894732444-8ecded7900cd.jpg" }
         ],
         faq: [
             { question: "How long to build?", answer: "Typically 4-8 weeks depending on complexity." },
@@ -2363,11 +2363,11 @@ export const servicesContent = {
         category: "Consulting",
         title: "Digital Strategy & Transformation",
         subtitle: "Future-proof your business with a pragmatic, roadmap-driven approach to digital evolution.",
-        heroImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2000", /* Strategy/Boardroom */
+        heroImage: "/images/services/unsplash-1552664730-d307ca884978.jpg", /* Strategy/Boardroom */
 
         overview: {
             text: "Technology moves faster than most organizations can adapt. Our Digital Strategy practice helps you cut through the noise. We don't just deliver slide decks; we align your technology investments with business outcomes. From modernizing legacy stacks to adopting AI at scale, we provide the blueprint—and the execution power—to turn ambition into reality.",
-            image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1200", /* Presentation */
+            image: "/images/services/unsplash-1531482615713-2afd69097998.jpg", /* Presentation */
             benefits: [
                 "ROI-First Technology Roadmaps",
                 "Vendor Agnostic Architecture",
@@ -2387,11 +2387,11 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "McKinsey 7S", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/McKinsey_%26_Company_Mark.svg/2560px-McKinsey_%26_Company_Mark.svg.png" } /* Concept icon/logo */,
-            { name: "Miro", icon: "https://upload.wikimedia.org/wikipedia/commons/5/53/Miro_logo.svg" },
-            { name: "Jira Align", icon: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Jira_Logo.svg" },
-            { name: "Lucidchart", icon: "https://upload.wikimedia.org/wikipedia/commons/7/75/Lucidsoftware-logo_2020.svg" },
-            { name: "Gartner", icon: "https://upload.wikimedia.org/wikipedia/commons/6/66/Gartner_logo.svg" }
+            { name: "McKinsey 7S", icon: "/images/services/2560px-McKinsey__26_Company_Mark.svg.png" } /* Concept icon/logo */,
+            { name: "Miro", icon: "/images/services/Miro_logo.svg" },
+            { name: "Jira Align", icon: "/images/services/Jira_Logo.svg" },
+            { name: "Lucidchart", icon: "/images/services/Lucidsoftware-logo_2020.svg" },
+            { name: "Gartner", icon: "/images/services/Gartner_logo.svg" }
         ],
 
         roi: {
@@ -2431,7 +2431,7 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "They didn't just give us a roadmap; they built the first MVP to prove it worked.", author: "Sarah J.", role: "CIO, Retail Giant", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200" }
+            { quote: "They didn't just give us a roadmap; they built the first MVP to prove it worked.", author: "Sarah J.", role: "CIO, Retail Giant", image: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg" }
         ],
         faq: [
             { question: "Do you just do advice?", answer: "No. We recognize ourselves as 'Strategy through Execution'. We code what we recommend." }
@@ -2442,11 +2442,11 @@ export const servicesContent = {
         category: "Consulting",
         title: "Staff Augmentation",
         subtitle: "Scale your engineering team with top 1% global talent. On-demand.",
-        heroImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=2000", /* Teamwork */
+        heroImage: "/images/services/unsplash-1522071820081-009f0129c71c.jpg", /* Teamwork */
 
         overview: {
             text: "Recruiting elite engineers takes months. We give you access to them in days. Our Staff Augmentation service bridges the talent gap with pre-vetted, senior-level developers, architects, and designers who embed directly into your existing workflows. Whether you need a single specialist or a full squad, we scale with your roadmap.",
-            image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=1200", /* Collaboration */
+            image: "/images/services/unsplash-1600880292203-757bb62b4baf.jpg", /* Collaboration */
             benefits: [
                 "Top 1% Global Talent Pool",
                 "Time-to-Productivity < 1 Week",
@@ -2466,11 +2466,11 @@ export const servicesContent = {
         ],
 
         techStack: [
-            { name: "React", icon: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-            { name: "Node.js", icon: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" },
-            { name: "Python", icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" },
-            { name: "AWS", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" },
-            { name: "Kubernetes", icon: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg" }
+            { name: "React", icon: "/images/services/React-icon.svg" },
+            { name: "Node.js", icon: "/images/services/Node.js_logo.svg" },
+            { name: "Python", icon: "/images/services/Python-logo-notext.svg" },
+            { name: "AWS", icon: "/images/services/Amazon_Web_Services_Logo.svg" },
+            { name: "Kubernetes", icon: "/images/services/Kubernetes_logo_without_workmark.svg" }
         ],
 
         roi: {
@@ -2510,11 +2510,696 @@ export const servicesContent = {
         },
 
         testimonials: [
-            { quote: "We added 4 engineers to our team in a week. They hit the ground running and felt like part of the culture.", author: "Mike R.", role: "CTO, FinTech Scaleup", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200" }
+            { quote: "We added 4 engineers to our team in a week. They hit the ground running and felt like part of the culture.", author: "Mike R.", role: "CTO, FinTech Scaleup", image: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg" }
         ],
         faq: [
             { question: "What timezones?", answer: "We support EST, PST, GMT, and IST overlap hours." },
             { question: "Is there a minimum?", answer: "Typically 3 months, full-time engagement." }
         ]
-    }
+    },
+    "electrical-instrumentation": {
+        category: "Strategic Expertise",
+        title: "Electrical & Instrumentation",
+        subtitle: "Total supply solutions for Oil & Gas, Marine, and Petrochemical industries.",
+        heroImage: "/images/services/industrial-electrical-hero.png",
+        overview: {
+            text: "Formed by highly experienced engineers and personnel from within the Oil & Gas, Marine, and Petrochemical Industries, we offer indepth knowledge of Electrical Engineering, Cables, and Equipment Supply. We provide TOTAL SUPPLY SOLUTIONS, from individual components to total turnkey services.",
+            image: "/images/services/unsplash-1498084393753-b411b2d26b34.jpg",
+            benefits: [
+                "Full installation, repairs, and refits on vessels",
+                "Total Turnkey Service availability",
+                "Hazardous and non-hazardous area expertise",
+                "Compliance with primary contract requirements",
+                "Global support with rapid-response riding crews"
+            ]
+        },
+        features: [
+            { title: "Offshore Shipboard Cables", description: "Specialized wiring for marine environments and offshore projects.", icon: "Activity" },
+            { title: "Cable Management", description: "Full range of trays, ladders, glands, and enclosures for all sectors.", icon: "Database" },
+            { title: "LV & HV Switchgear", description: "Design and supply of switchboards, control desks, and distribution panels.", icon: "Zap" },
+            { id: "marine", title: "Marine Retrofits", description: "Conversions and upgrades for vessels of all sizes, worldwide.", icon: "Globe" },
+            { id: "automation", title: "Automation Products", description: "Advanced control systems for industrial and maritime applications.", icon: "Cpu" },
+            { title: "Hazardous Enclosures", description: "Explosion-proof Eexe and Eexd enclosures for high-risk environments.", icon: "Shield" },
+            { title: "Electrical Motors", description: "MV/LV motors, including explosion-proof and high-efficiency models.", icon: "Zap" },
+            { title: "DG Sets & Alternators", description: "Diesel generating sets and alternator supplies for standby power.", icon: "Activity" },
+            { title: "Heat Tracing", description: "Comprehensive heat tracing products and connection junction boxes.", icon: "Activity" }
+        ],
+        techStack: [
+            { name: "IEC Standards", icon: "/images/services/logo.svg" },
+            { name: "British Standards (BS)", icon: "/images/services/bsi-logo.png" },
+            { name: "NEK Standards", icon: "/images/services/nek-logo.svg" },
+            { name: "VDE", icon: "/images/services/VDE_Logo.svg" }
+        ],
+        roi: {
+            title: "Industrial Reliability",
+            description: "Reducing downtime through superior material procurement and engineering excellence.",
+            stats: [
+                { label: "Material Longevity", value: 95, prefix: "", suffix: "%", color: "#3B82F6" },
+                { label: "Installation Speed", value: 30, prefix: "+", suffix: "%", color: "#10B981" },
+                { label: "Maintenance Cost", value: 20, prefix: "-", suffix: "%", color: "#F59E0B" }
+            ]
+        },
+        useCases: [
+            { title: "FPSO Conversions", description: "Providing total electrical supply and engineering support for large-scale offshore conversions.", tags: ["Marine", "Oil & Gas", "Engineering"] },
+            { title: "Petrochemical Plant Support", description: "Supply of flame-retardant and fire-resistant cables for high-security industrial zones.", tags: ["Petrochemical", "Safety", "Compliance"] }
+        ],
+        industries: [
+            { name: "Marine", icon: "Globe", desc: "Vessel refits and build support" },
+            { name: "Oil & Gas", icon: "Factory", desc: "Offshore platform E&I" },
+            { name: "Petrochemical", icon: "Shield", desc: "High-integrity electrical systems" }
+        ],
+        stats: [
+            { value: "24/7", label: "Service Support" },
+            { value: "100%", label: "Standard Compliance" },
+            { value: "Rapid", label: "Global Deployment" }
+        ],
+        process: [
+            { step: 1, title: "Requirement Analysis", description: "Analyzing technical specs for specific industrial standards (IEC, BS, NEK).", image: "/images/services/industrial-analysis.png" },
+            { step: 2, title: "Sourcing & Procurement", description: "Leveraging global networks for high-quality, cost-effective electrical materials.", image: "/images/services/unsplash-1586528116311-ad8dd3c8310d.jpg" },
+            { step: 3, title: "Custom Engineering", description: "Designing tailormade switchgear and control systems to meet project needs.", image: "/images/services/unsplash-1531403009284-440f080d1e12.jpg" },
+            { step: 4, title: "Delivery & Commissioning", description: "Ensuring timely arrival and professional oversight during installation.", image: "/images/services/unsplash-1551434678-e076c223a692.jpg" }
+        ],
+        faq: [
+            { question: "Do you supply cables to specific standards?", answer: "Yes, we supply to IEC, BS, NEK, VDE, IEEE 45, and JIS standards." },
+            { question: "Can you provide riding crews?", answer: "We can provide experienced offshore engineers on short notice anywhere in the world." }
+        ]
+    },
+    "cables-management": {
+        category: "Industrial & Marine",
+        title: "Cables & Accessories",
+        subtitle: "High-integrity wiring solutions for hazardous and maritime environments.",
+        heroImage: "/images/services/industrial-cables-hero.png",
+        overview: {
+            text: "We specialize in the supply of offshore shipboard wiring, commercial maritime defense cables, and onshore flame-retardant / fire-resistant solutions. Our inventory meets international standards including IEC, BS, NEK, and VDE, ensuring maximum safety and compliance for oil, gas, and petrochemical projects.",
+            image: "/images/services/unsplash-1508514177221-188b1cf16e9d.jpg",
+            benefits: [
+                "Full compliance with IEC, BS, NEK, and VDE",
+                "Flame retardant and fire resistant materials",
+                "Hazardous and non-hazardous area expertise",
+                "Strategic sourcing for Oil & Gas sectors",
+                "Custom design and international certifications"
+            ]
+        },
+        features: [
+            { title: "Offshore Shipboard Cables", description: "Specialized wiring for marine environments and offshore platforms.", icon: "Activity" },
+            { title: "Joints and Closures", description: "High-integrity connection solutions for submerged and surface cabling.", icon: "Shield" },
+            { title: "Terminations & Glands", description: "Precision-engineered cable ends and hazardous area glands.", icon: "Zap" },
+            { title: "Cold and Heat Shrinks", description: "Durable insulation and protection sleeves for industrial use.", icon: "Database" },
+            { title: "Lugs and Clamps", description: "Heavy-duty mechanical connectors for power and signal lines.", icon: "Target" }
+        ],
+        techStack: [
+            { name: "IEC Standards", icon: "/images/services/logo.svg" },
+            { name: "British Standards (BS)", icon: "/images/services/bsi-logo.png" },
+            { name: "NEK Standards", icon: "/images/services/nek-logo.svg" }
+        ],
+        roi: {
+            title: "Safety & Compliance",
+            description: "Reducing risk of fire and electrical failure through certified premium cable solutions.",
+            stats: [
+                { label: "Fire Resistance", value: 100, prefix: "", suffix: "%", color: "#3B82F6" },
+                { label: "Reliability Rate", value: 99, prefix: "", suffix: "%", color: "#10B981" },
+                { label: "Compliance Score", value: 100, prefix: "", suffix: "%", color: "#F59E0B" }
+            ]
+        },
+        stats: [
+            { value: "100%", label: "Certified" },
+            { value: "Global", label: "Supply" },
+            { value: "Rapid", label: "Delivery" }
+        ],
+        process: [
+            { step: 1, title: "Spec Analysis", description: "Evaluating cable requirements based on environment.", image: "/images/services/unsplash-1512314889357-e157c22f938d.jpg" },
+            { step: 2, title: "Global Sourcing", description: "Procuring from certified manufacturers.", image: "/images/services/unsplash-1586528116311-ad8dd3c8310d.jpg" }
+        ],
+        faq: [
+            { question: "Do you supply LSF cables?", answer: "Yes, we supply Low Smoke & Fume (LSF) and Low Smoke Zero Halogen (LSZH) cables." }
+        ],
+        useCases: [
+            { title: "Offshore Platform Wiring", description: "Supply of fire-resistant cables for North Sea platforms.", tags: ["Offshore", "Safety"] }
+        ],
+        industries: [
+            { name: "Marine", icon: "Globe", desc: "Maritime applications" },
+            { name: "Oil & Gas", icon: "Factory", desc: "Energy sector" }
+        ]
+    },
+    "switchgear-control": {
+        category: "Industrial & Marine",
+        title: "Switchgear & Control",
+        subtitle: "Advanced LV & HV distribution and automation control panels.",
+        heroImage: "/images/services/unsplash-1531403009284-440f080d1e12.jpg",
+        overview: {
+            text: "We provide total supply solutions for LV & HV switchboards, control desks, and distribution panels. Our expertise includes power factor compensation packages and motor control centers, ensuring efficient energy management and operational reliability in industrial settings.",
+            image: "/images/services/unsplash-1513828583688-c52646db42da.jpg",
+            benefits: [
+                "Custom-designed LV & HV boards",
+                "Power Factor Compensation for efficiency",
+                "Integrated Automation & PLC systems",
+                "Hazardous area Eexe and Eexd enclosures",
+                "Technical support for installation and refit"
+            ]
+        },
+        features: [
+            { title: "HV Switchboards", description: "High-voltage distribution systems for industrial grids.", icon: "Zap" },
+            { title: "Control Desks", description: "Ergonomic and technical interfaces for mission-critical operations.", icon: "Cpu" },
+            { title: "Motor Control Centers", description: "Centralized motor control for marine and industrial plants.", icon: "Activity" },
+            { title: "Capacitor Banks", description: "Power quality and reactive power management solutions.", icon: "Target" },
+            { title: "Explosion Proof Enclosures", description: "Certified Eexe and Eexd housing for extreme environments.", icon: "Shield" }
+        ],
+        techStack: [
+            { name: "Schneider Electric", icon: "/images/services/asset-72.jpg" },
+            { name: "Siemens", icon: "/images/services/favicon.ico" },
+            { name: "ABB", icon: "/images/services/asset-73.jpg" }
+        ],
+        roi: {
+            title: "Grid Efficiency",
+            description: "Advanced switchgear improves power distribution stability and safety.",
+            stats: [
+                { label: "Efficiency", value: 98, prefix: "", suffix: "%", color: "#3B82F6" },
+                { label: "Safety Rating", value: 100, prefix: "", suffix: "%", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "High-Spec", label: "Design" },
+            { value: "Certified", label: "Safety" }
+        ],
+        process: [
+            { step: 1, title: "Panel Design", description: "Custom engineering for specific project loads.", image: "/images/services/unsplash-1531403009284-440f080d1e12.jpg" }
+        ],
+        faq: [
+            { question: "Do you offer LV and HV solutions?", answer: "Yes, we handle both low and high voltage switchgear assemblies." }
+        ],
+        useCases: [
+            { title: "Industrial Plant Upgrade", description: "Modernizing distribution panels for a factory complex.", tags: ["Industrial", "Upgrade"] }
+        ],
+        industries: [
+            { name: "Manufacturing", icon: "Factory", desc: "Industrial plants" },
+            { name: "Power", icon: "Zap", desc: "Grid infrastructure" }
+        ]
+    },
+    "marine-offshore": {
+        category: "Industrial & Marine",
+        title: "Marine & Offshore",
+        subtitle: "Global support for vessel refits, builds, and offshore conversions.",
+        heroImage: "/images/services/unsplash-1498084393753-b411b2d26b34.jpg",
+        overview: {
+            text: "Our specialized engineering division offers full installation, repairs, and refits for vessels of all sizes. From FPSO conversions to new build support, our riding crews are available on short notice to ensure compliance with primary contracts and international maritime standards.",
+            image: "/images/services/unsplash-1551434678-e076c223a692.jpg",
+            benefits: [
+                "Full repairs and refits on any vessel size",
+                "Global rapid-response riding crews",
+                "Offshore trained specialized engineers",
+                "Compliance with primary module contracts",
+                "Support for FPSO and maritime build projects"
+            ]
+        },
+        features: [
+            { title: "FPSO Conversions", description: "Complete electrical and structural support for offshore assets.", icon: "Target" },
+            { title: "Riding Crews", description: "Elite technical teams available for global deployment.", icon: "Globe" },
+            { title: "Vessel Modernization", description: "Upgrading legacy hulls with modern digital and electrical systems.", icon: "Zap" },
+            { title: "Hazardous Compliance", description: "Certified offshore engineering for high-risk zones.", icon: "Shield" }
+        ],
+        industries: [
+            { name: "Marine", icon: "Globe", desc: "Global shipping and naval support" },
+            { name: "Oil & Gas", icon: "Factory", desc: "Offshore platform engineering" }
+        ],
+        techStack: [
+            { name: "Maritime Standards", icon: "/images/services/asset-76.jpg" }
+        ],
+        roi: {
+            title: "Vessel Longevity",
+            description: "High-quality refits extend the operational life of maritime assets.",
+            stats: [
+                { label: "Asset Life", value: 15, prefix: "+", suffix: " yrs", color: "#3B82F6" }
+            ]
+        },
+        stats: [
+            { value: "Fast", label: "Deployment" },
+            { value: "Global", label: "Reach" }
+        ],
+        process: [
+            { step: 1, title: "Vessel Audit", description: "Assessing current electrical and structural state.", image: "/images/services/unsplash-1556388158-158ea5ccacbd.jpg" }
+        ],
+        faq: [
+            { question: "Where are your crews based?", answer: "We have rapid-response teams available globally, coordinated from our regional hubs." }
+        ],
+        useCases: [
+            { title: "Tanker Retrofit", description: "Complete electrical upgrade to meet new emission standards.", tags: ["Retrofit", "Compliance"] }
+        ]
+    },
+    "automation-products": {
+        category: "Capabilities",
+        title: "Automation & Systems",
+        subtitle: "Industry 4.0 solutions and integrated control logic.",
+        heroImage: "/images/services/unsplash-1518770660439-4636190af475.jpg",
+        overview: {
+            text: "Leveraging leading-edge technology, we provide automation products and systems including Fieldbus components, HMI, and Industrial PCs. Our solutions are designed to optimize production processes in steel, aluminum, chemical, and food/beverage sectors.",
+            image: "/images/services/unsplash-1531297484001-80022131f5a1.jpg",
+            benefits: [
+                "Advanced Programmable Controllers (PLC)",
+                "High-performance Servo Drives and Motors",
+                "Integrated HMI and Industrial PCs",
+                "Fieldbus networking and synchronization",
+                "Software tools for process optimization"
+            ]
+        },
+        features: [
+            { title: "HMI Interface", description: "Human-Machine interfaces for seamless process control.", icon: "Activity" },
+            { title: "Programmable Controllers", description: "Robust PLC units for industrial logic and automation.", icon: "Cpu" },
+            { title: "Servo Systems", description: "High-precision motion control for manufacturing lines.", icon: "Target" },
+            { title: "Industrial PC Panels", description: "Ruggedized computing for harsh industrial environments.", icon: "Database" }
+        ],
+        techStack: [
+            { name: "Omron", icon: "/images/services/asset-80.jpg" },
+            { name: "Rockwell", icon: "/images/services/Databricks_Logo.png" }
+        ],
+        roi: {
+            title: "Automation ROI",
+            description: "Reducing manual error and increasing production speed.",
+            stats: [
+                { label: "Throughput", value: 30, prefix: "+", suffix: "%", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "Smart", label: "Logic" },
+            { value: "Fast", label: "IO" }
+        ],
+        process: [
+            { step: 1, title: "Logic Design", description: "Programming PLC and HMI systems for project specific tasks.", image: "/images/services/unsplash-1581091226825-a6a2a5aee158.jpg" }
+        ],
+        faq: [
+            { question: "Do you handle custom software?", answer: "Yes, we provide the logic and software tools to optimize production." }
+        ],
+        useCases: [
+            { title: "Bottling Plant Automation", description: "Implementing high-speed motion control for a production line.", tags: ["F&B", "Automation"] }
+        ],
+        industries: [
+            { name: "Manufacturing", icon: "Factory", desc: "Industry 4.0 solutions" }
+        ]
+    },
+    "solar-solutions": {
+        category: "Energy & Infrastructure",
+        title: "Solar Power Solutions",
+        subtitle: "Turnkey PV systems for industrial and commercial energy independence.",
+        heroImage: "/images/services/unsplash-1515378791036-0648a3ef77b2.jpg",
+        overview: {
+            text: "We provide complete solar PV solutions tailored for industrial, commercial, and building power needs. From site analysis to turnkey installation, our systems are designed to maximize energy yield and provide long-term sustainable power for modern infrastructure.",
+            image: "/images/services/unsplash-1473341304170-971dccb5ac1e.jpg",
+            benefits: [
+                "Utility-scale PV system deployment",
+                "Industrial roof-top power solutions",
+                "Reduction in grid dependency and carbon footprint",
+                "High-efficiency panel and inverter sourcing",
+                "Full technical support and maintenance"
+            ]
+        },
+        features: [
+            { title: "PV System Design", description: "Custom engineering for maximum solar energy harvesting.", icon: "Zap" },
+            { title: "Energy Management", description: "Integrated monitoring and smart grid synchronization.", icon: "Activity" },
+            { title: "Battery Storage", description: "Scaleable storage solutions for consistent power delivery.", icon: "Database" }
+        ],
+        techStack: [
+            { name: "Solar PV", icon: "/images/services/asset-82.jpg" },
+            { name: "Inverter Tech", icon: "/images/services/asset-83.jpg" }
+        ],
+        process: [
+            { step: 1, title: "Site Assessment", description: "Evaluating solar potential and roof load capacity.", image: "/images/services/unsplash-1508514177221-188b1cf16e9d.jpg" }
+        ],
+        stats: [
+            { value: "99%", label: "Reliability" },
+            { value: "Green", label: "Energy" }
+        ],
+        faq: [
+            { question: "Do you offer energy storage?", answer: "Yes, we provide scalable battery storage solutions for nighttime power." }
+        ],
+        useCases: [
+            { title: "Industrial Solar Farm", description: "5MW installation for a manufacturing complex.", tags: ["Solar", "Industry"] }
+        ],
+        industries: [
+            { name: "Renewables", icon: "Zap", desc: "Sustainable energy" }
+        ]
+    },
+    "hv-substations": {
+        category: "Energy & Infrastructure",
+        title: "HV & Substations",
+        subtitle: "High-voltage equipment for reliable power transmission.",
+        heroImage: "/images/services/unsplash-1544724569-5f546fd6f2b5.jpg",
+        overview: {
+            text: "Specializing in the supply of high-voltage substation equipment, we offer current transformers, inductive voltage transformers, isolators, and disconnectors. Our products are sourced from global leaders to ensure grid stability and technical compliance.",
+            image: "/images/services/unsplash-1581092160607-ee22621dd758.jpg",
+            benefits: [
+                "Precision-engineered Current & Voltage Transformers",
+                "Reliable MV Disconnector Isolators",
+                "High-spec Fuse Cutouts and Ring Main Units",
+                "Compliance with global utility standards",
+                "Robust equipment for harsh environment substations"
+            ]
+        },
+        features: [
+            { title: "HV Transformers", description: "Current and voltage units for precise monitoring.", icon: "Activity" },
+            { title: "Isolation Control", description: "Inductive and capacitive voltage transformers.", icon: "Shield" },
+            { title: "Mini Substations", description: "Compact power distribution units for localized grids.", icon: "Cpu" }
+        ],
+        techStack: [
+            { name: "High Voltage (HV)", icon: "/images/services/asset-87.jpg" }
+        ],
+        roi: {
+            title: "Grid Reliability ROI",
+            stats: [
+                { label: "Uptime", value: 99.9, prefix: "", suffix: "%", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "Heavy-Duty", label: "Spec" }
+        ],
+        process: [
+            { step: 1, title: "Grid Analysis", description: "Evaluating load and voltage requirements for the substation.", image: "/images/services/unsplash-1581092160607-ee22621dd758.jpg" }
+        ],
+        faq: [
+            { question: "What voltage ranges do you cover?", answer: "We supply equipment for MV, HV, and EHV substation projects." }
+        ],
+        useCases: [
+            { title: "Substation Upgrade", description: "Replacement of aging current transformers for a national utility.", tags: ["Utility", "Upgrade"] }
+        ],
+        industries: [
+            { name: "Utilities", icon: "Globe", desc: "Grid support" }
+        ]
+    },
+    "poles-towers": {
+        category: "Energy & Infrastructure",
+        title: "Poles & Towers",
+        subtitle: "Certified structural support for power distribution and lighting.",
+        heroImage: "/images/services/unsplash-1516110833967-0b5716ca1387.jpg",
+        overview: {
+            text: "Providing a complete range of tubular distribution poles and overhead line (OHL) towers. All structures are manufactured to international specifications, ensuring durability for regional electrification and lighting projects.",
+            image: "/images/services/unsplash-1504307651254-35680f356dfd.jpg",
+            benefits: [
+                "Heavy-duty OHL steel towers",
+                "Tubular distribution and lighting poles",
+                "Wooden poles for specialized applications",
+                "Line hardwares and pole line accessories",
+                "Global logistics and freight management"
+            ]
+        },
+        features: [
+            { title: "Transmission Towers", description: "Lattice and tubular steel towers for OHL.", icon: "Factory" },
+            { title: "Distribution Poles", description: "GI and wooden poles for local power networks.", icon: "Target" }
+        ],
+        techStack: [
+            { name: "ASTM Standards", icon: "/images/services/asset-90.jpg" }
+        ],
+        roi: {
+            title: "Structural Integrity",
+            stats: [
+                { label: "Lifespan", value: 30, prefix: "+", suffix: " yrs", color: "#3B82F6" }
+            ]
+        },
+        stats: [
+            { value: "Durable", label: "Design" }
+        ],
+        process: [
+            { step: 1, title: "Structural Design", description: "Engineering towers to meet regional wind and load codes.", image: "/images/services/structural-design.png" }
+        ],
+        faq: [
+            { question: "Do you supply pole accessories?", answer: "Yes, we provide full sets of line hardware including insulators and clamps." }
+        ],
+        useCases: [
+            { title: "Rural Electrification", description: "Supply of 1000+ poles for a regional power expansion.", tags: ["Utility", "Infrastructure"] }
+        ],
+        industries: [
+            { name: "Power", icon: "Zap", desc: "Transmission & Distribution" }
+        ]
+    },
+    "steel-structures": {
+        category: "Energy & Infrastructure",
+        title: "Steel Structures",
+        subtitle: "Structural engineering for substations and offshore builds.",
+        heroImage: "/images/services/unsplash-1517433456452-f9633a875f6f.jpg",
+        overview: {
+            text: "We supply specialized substation steel structures and support for marine engineering projects. Our structural solutions are built for extreme load-bearing and corrosion resistance in coastal and offshore environments.",
+            image: "/images/services/unsplash-1517245386807-bb43f82c33c4.jpg",
+            benefits: [
+                "Custom substation support frames",
+                "High-integrity marine engineering steel",
+                "Corrosion-resistant finishes for coastal use",
+                "Supplied with all SS/GI bolts and fasteners",
+                "Technical structural analysis support"
+            ]
+        },
+        features: [
+            { title: "Support Structures", description: "Precision-engineered frames for HV equipment.", icon: "Database" },
+            { title: "Marine Steel", description: "Corrosion-protected structural components.", icon: "Globe" }
+        ],
+        techStack: [
+            { name: "Structural Steel", icon: "/images/services/asset-92.jpg" }
+        ],
+        roi: {
+            title: "Corrosion Resistance",
+            stats: [
+                { label: "Longevity", value: 50, prefix: "+", suffix: " yrs", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "Rigid", label: "Build" }
+        ],
+        process: [
+            { step: 1, title: "Fabrication Oversight", description: "Ensuring precision during structural welding and galvanization.", image: "/images/services/fabrication-oversight.png" }
+        ],
+        faq: [
+            { question: "What finishes do you offer?", answer: "We provide Hot Dip Galvanization (HDG) and specialized epoxy coatings for marine use." }
+        ],
+        useCases: [
+            { title: "Coastal Substation Support", description: "Supplying HDG frames for a 132kV seaside substation.", tags: ["Marine", "HV"] }
+        ],
+        industries: [
+            { name: "Civil Works", icon: "Factory", desc: "Foundations & Support" }
+        ]
+    },
+    "hospitality-linen": {
+        category: "Hospitality OS&E",
+        title: "Housekeeping & Linen",
+        subtitle: "Premium textile solutions for luxury guest experiences.",
+        heroImage: "/images/services/unsplash-1518186285589-2f7649de83e0.jpg",
+        overview: {
+            text: "We represent MAEVA Spain, the leading supplier of quality bed and bath linen. Our collection includes custom-made plain and jacquard linen, alongside soft goods like feather and down products designed for elite hospitality brands.",
+            image: "/images/services/unsplash-1584132967334-10e028bd69f7.jpg",
+            benefits: [
+                "Exclusive MAEVA Spain representation",
+                "Custom-made plain and jacquard textiles",
+                "High-standard feather and down products",
+                "Tailored solutions for guestroom concept and design",
+                "Durable and premium quality for boutique hotels"
+            ]
+        },
+        features: [
+            { title: "Bed Linen", description: "Soft, breathable fabrics for ultimate guest comfort.", icon: "ShoppingBag" },
+            { title: "Bath Linen", description: "Highly absorbent, luxury towels and robes.", icon: "Shield" },
+            { title: "Turndown Items", description: "Specialized textiles for evening room preparation.", icon: "Activity" }
+        ],
+        techStack: [
+            { name: "MAEVA Spain", icon: "/images/services/asset-94.jpg" }
+        ],
+        roi: {
+            title: "Luxury Linen ROI",
+            stats: [
+                { label: "Durability", value: 40, prefix: "+", suffix: "%", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "Luxury", label: "Class" }
+        ],
+        process: [
+            { step: 1, title: "Fiber Selection", description: "Choosing high-thread count cotton and fine yarns for guest comfort.", image: "/images/services/fiber-selection.png" }
+        ],
+        faq: [
+            { question: "Are your linens custom made?", answer: "Yes, we specialize in custom plain and jacquard linens to client spec." }
+        ],
+        useCases: [
+            { title: "Palace Hotel Supply", description: "Outfitting 500+ rooms with custom jacquard linen from MAEVA.", tags: ["Luxury", "Textile"] }
+        ],
+        industries: [
+            { name: "Hotels", icon: "ShoppingBag", desc: "Luxury guestrooms" }
+        ]
+    },
+    "hospitality-electronics": {
+        category: "Hospitality OS&E",
+        title: "In-Room Electronics",
+        subtitle: "Integrated technology for modern hotel rooms.",
+        heroImage: "/images/services/unsplash-1566073771259-6a8506099945.jpg",
+        overview: {
+            text: "We represent GVtech for state-of-the-art minibar systems and RAMD S.A / SAFEOTEL for comprehensive in-room electronics. From smart safes and hair dryers to specialized hospitality trays, we provide technology that enhances guest convenience.",
+            image: "/images/services/unsplash-1522770179533-24471fcdba45.jpg",
+            benefits: [
+                "Smart Safe solutions for hotel rooms",
+                "Energy-efficient GVtech Minibar Systems",
+                "RAMD S.A and SAFEOTEL brand representation",
+                "Modern hair dryers and bathroom mirrors",
+                "Hospitality trays and kettle setups"
+            ]
+        },
+        features: [
+            { title: "Minibars", description: "Silent and efficient guest room refreshment centers.", icon: "Zap" },
+            { title: "Guest Safes", description: "Secure and user-friendly locking systems.", icon: "Shield" },
+            { title: "Electronics", description: "Hairdryers, mirrors, and tech accessories.", icon: "Cpu" }
+        ],
+        techStack: [
+            { name: "GVtech", icon: "/images/services/asset-97.jpg" },
+            { name: "SAFEOTEL", icon: "/images/services/asset-98.jpg" }
+        ],
+        roi: {
+            title: "Tech Convenience ROI",
+            stats: [
+                { label: "In-Room Revenue", value: 15, prefix: "+", suffix: "%", color: "#3B82F6" }
+            ]
+        },
+        stats: [
+            { value: "Smart", label: "Guestroom" }
+        ],
+        process: [
+            { step: 1, title: "Tech Integration", description: "Ensuring minibars and safes integrate with hotel power and guest needs.", image: "/images/services/unsplash-1522770179533-24471fcdba45.jpg" }
+        ],
+        faq: [
+            { question: "Do you supply hair dryers?", answer: "Yes, we represent RAMD S.A for high-standard hotel hair dryers." }
+        ],
+        useCases: [
+            { title: "Tech Refresh", description: "Updating minibars to silent GVtech systems for a city hotel.", tags: ["Tech", "Upgrade"] }
+        ],
+        industries: [
+            { name: "Hospitality", icon: "ShoppingBag", desc: "Smart guestrooms" }
+        ]
+    },
+    "hospitality-kitchen": {
+        category: "Hospitality OS&E",
+        title: "Kitchen & Banquet",
+        subtitle: "Commercial equipment for professional food service.",
+        heroImage: "/images/services/unsplash-1556910103-1c02745aae4d.jpg",
+        overview: {
+            text: "Offering complete turnkey solutions for commercial kitchens and banqueting departments. We supply heavy-duty kitchen utensils, professional laundry equipment, and specialized banquet furniture to meet the high demands of large-scale hospitality operations.",
+            image: "/images/services/unsplash-1590579491624-f98f36d4c763.jpg",
+            benefits: [
+                "Full turnkey kitchen equipment packages",
+                "Durable commercial-grade utensils",
+                "Banqueting supplies for large-scale events",
+                "Industrial laundry and cleaning machinery",
+                "Provisioning for staff accommodation OS&E"
+            ]
+        },
+        features: [
+            { title: "Kitchen Utensils", description: "Professional-grade stainless steel tools.", icon: "ShoppingBag" },
+            { title: "Banquet Supplies", description: "Scaling hospitality for large guest counts.", icon: "Target" }
+        ],
+        techStack: [
+            { name: "Commercial Grade", icon: "/images/services/asset-102.jpg" }
+        ],
+        roi: {
+            title: "Operational Efficiency",
+            stats: [
+                { label: "Waste Reduction", value: 20, prefix: "-", suffix: "%", color: "#10B981" }
+            ]
+        },
+        stats: [
+            { value: "Heavy-Duty", label: "Rating" }
+        ],
+        process: [
+            { step: 1, title: "Supply Chain Audit", description: "Standardizing kitchen gear for consistency across properties.", image: "/images/services/unsplash-1556910103-1c02745aae4d.jpg" }
+        ],
+        faq: [
+            { question: "Do you handle staff housing items?", answer: "Yes, we provide full OS&E packages for staff accommodation as well." }
+        ],
+        useCases: [
+            { title: "Resort Kitchen Setup", description: "Turnkey supply for an all-day dining commercial kitchen.", tags: ["Hospitality", "Turnkey"] }
+        ],
+        industries: [
+            { name: "Hotels", icon: "ShoppingBag", desc: "Commercial kitchens" }
+        ]
+    },
+    "hospitality-spa": {
+        category: "Hospitality OS&E",
+        title: "SPA & Wellbeing",
+        subtitle: "Luxury wellness and industrial cleaning solutions.",
+        heroImage: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg",
+        overview: {
+            text: "We provide specialized spa products and furniture for luxury wellness centers. Additionally, our cleaning equipment division supplies industrial-grade chemicals and machinery for comprehensive property maintenance.",
+            image: "/images/services/unsplash-1600334089648-b0d9d3028eb2.jpg",
+            benefits: [
+                "Complete SPA furniture and equipment",
+                "High-end wellness center supplies",
+                "Industrial-grade cleaning chemicals",
+                "Heavy-duty property maintenance tools",
+                "Tailored solutions for luxury resorts"
+            ]
+        },
+        features: [
+            { title: "SPA Equipment", description: "Specialized furniture for luxury wellness.", icon: "Activity" },
+            { title: "Cleaning Machinery", description: "Industrial tools for property hygiene.", icon: "Shield" }
+        ],
+        techStack: [
+            { name: "Wellness Pro", icon: "/images/services/asset-105.jpg" }
+        ],
+        roi: {
+            title: "Guest Wellness ROI",
+            stats: [
+                { label: "Guest Satisfaction", value: 95, prefix: "", suffix: "%", color: "#F59E0B" }
+            ]
+        },
+        stats: [
+            { value: "Premium", label: "Standard" }
+        ],
+        process: [
+            { step: 1, title: "Wellness Concept", description: "Aligning spa equipment with the property's design theme.", image: "/images/services/wellness-spa.png" }
+        ],
+        faq: [
+            { question: "Do you supply cleaning chemicals?", answer: "Yes, we represent leading industrial chemical brands for housekeeping." }
+        ],
+        useCases: [
+            { title: "Boutique SPA Launch", description: "Providing all furniture and soft goods for a new wellness center.", tags: ["Wellness", "SPA"] }
+        ],
+        industries: [
+            { name: "Hospitality", icon: "ShoppingBag", desc: "Wellness centers" }
+        ]
+    },
+    "hospitality-fb": {
+        category: "Hospitality OS&E",
+        title: "F&B & Tabletop",
+        subtitle: "Fine dining essentials and exclusive placemats.",
+        heroImage: "/images/services/unsplash-1414235077428-338989a2e8c0.jpg",
+        overview: {
+            text: "Elevating the dining experience with premium tabletop items including chinaware, glassware, and stainless steel. We represent Tavola Spain for exclusive vinyl placemats and MAEVA for specialist F&B linen.",
+            image: "/images/services/unsplash-1519389950473-47ba0277781c.jpg",
+            benefits: [
+                "Exclusive Tavola Spain vinyl placemats",
+                "Premium chinaware and luxury glassware",
+                "Professional-grade stainless steel tabletop",
+                "Specialized F&B linen from MAEVA Spain",
+                "Menu covers and dining room accessories"
+            ]
+        },
+        features: [
+            { title: "Vinyl Placemats", description: "Exclusive designs from Tavola Spain.", icon: "ShoppingBag" },
+            { title: "Premium Tabletop", description: "Chinaware and glassware for fine dining.", icon: "Activity" }
+        ],
+        techStack: [
+            { name: "Tavola Spain", icon: "/images/services/asset-107.jpg" },
+            { name: "MAEVA Spain", icon: "/images/services/asset-94.jpg" }
+        ],
+        roi: {
+            title: "Dining Aesthetics ROI",
+            stats: [
+                { label: "Guest Rating", value: 90, prefix: "+", suffix: "%", color: "#F59E0B" }
+            ]
+        },
+        stats: [
+            { value: "Fine", label: "Dining" }
+        ],
+        process: [
+            { step: 1, title: "Design Selection", description: "Choosing patterns and textures that match the F&B concept.", image: "/images/services/design-selection.png" }
+        ],
+        faq: [
+            { question: "Who do you represent for placemats?", answer: "We are the exclusive representative for Tavola Spain in the region." }
+        ],
+        useCases: [
+            { title: "Signature Restaurant Launch", description: "Supplying exclusive vinyl placemats for an award-winning venue.", tags: ["Dining", "Exclusive"] }
+        ],
+        industries: [
+            { name: "Hotels & Restaurants", icon: "ShoppingBag", desc: "Fine dining" }
+        ]
+    },
 };

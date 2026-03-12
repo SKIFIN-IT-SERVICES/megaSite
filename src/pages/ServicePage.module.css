@@ -361,7 +361,7 @@
 
 /* --- STATS (Parallax) --- */
 .stats {
-    background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=2072');
+    background-image: url('/images/services/unsplash-1451187580459-43490279c0fa.jpg');
     background-attachment: fixed;
     background-size: cover;
     position: relative;

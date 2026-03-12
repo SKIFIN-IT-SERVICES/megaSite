@@ -11,7 +11,7 @@ const Accessibility = () => {
             {/* HERO */}
             <section className={styles.hero} style={{ minHeight: '40vh' }}>
                 <div className={styles.heroBackground}>
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=2000" alt="Accessibility" className={styles.heroImg} />
+                    <img src="/images/services/unsplash-1618005182384-a83a8bd57fbe.jpg" alt="Accessibility" className={styles.heroImg} />
                     <div className={styles.heroOverlay} />
                 </div>
                 <div className={styles.heroContent}>

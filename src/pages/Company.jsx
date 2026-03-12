@@ -30,10 +30,10 @@ const Company = () => {
     ];
 
     const leaders = [
-        { name: "Dr. Richard S.", role: "Founder & Chairman", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" },
-        { name: "Sarah M.", role: "Chief Executive Officer", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400" },
-        { name: "David K.", role: "Global Head of Delivery", img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400" },
-        { name: "Elena R.", role: "Chief Innovation Officer", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400" }
+        { name: "Dr. Richard S.", role: "Founder & Chairman", img: "/images/services/unsplash-1507003211169-0a1dd7228f2d.jpg" },
+        { name: "Sarah M.", role: "Chief Executive Officer", img: "/images/services/unsplash-1580489944761-15a19d654956.jpg" },
+        { name: "David K.", role: "Global Head of Delivery", img: "/images/services/unsplash-1519085360753-af0119f7cbe7.jpg" },
+        { name: "Elena R.", role: "Chief Innovation Officer", img: "/images/services/unsplash-1573496359142-b8d87734a5a2.jpg" }
     ];
 
     const csr = [
@@ -47,7 +47,7 @@ const Company = () => {
             {/* HERO SECTION */}
             <section className={styles.hero}>
                 <div className={styles.heroBackground}>
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=2000" alt="Technology" className={styles.heroImg} />
+                    <img src="/images/services/unsplash-1518770660439-4636190af475.jpg" alt="Technology" className={styles.heroImg} />
                     <div className={styles.heroOverlay}></div>
                 </div>
                 <div className={styles.heroContent}>
@@ -97,7 +97,7 @@ const Company = () => {
                             </motion.div>
                         </div>
                         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className={styles.overviewImageWrapper}>
-                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200" alt="Office Collaboration" className={styles.overviewImage} />
+                            <img src="/images/services/unsplash-1522202176988-66273c2fd55f.jpg" alt="Office Collaboration" className={styles.overviewImage} />
                         </motion.div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ const Company = () => {
                 <div className={styles.container}>
                     <div className={styles.overviewGrid}>
                         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-                            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=1200" alt="CSR Activities" style={{ borderRadius: '20px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }} />
+                            <img src="/images/services/unsplash-1559027615-cd4628902d4a.jpg" alt="CSR Activities" style={{ borderRadius: '20px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)' }} />
                         </motion.div>
                         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
                             <span style={{ color: '#14B8A6', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.15em', marginBottom: '1rem', display: 'block' }}>CSR & Sustainability</span>

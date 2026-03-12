@@ -124,7 +124,11 @@
 }
 
 .capabilitiesMenu {
-    width: 900px;
+    width: 1100px;
+}
+
+.expertiseMenu {
+    width: 1000px;
 }
 
 .megaGrid {
@@ -137,7 +141,11 @@
 }
 
 .capabilitiesGrid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.expertiseGrid {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .columnTitle {
@@ -205,3 +213,14 @@
 .readMore:hover {
     gap: 0.8rem;
 }
+
+/* Active States */
+.activeNavLink {
+    color: var(--color-accent) !important;
+}
+
+.activeLink {
+    color: #ff6b00 !important;
+    font-weight: 700;
+    transform: translateX(4px);
+}

@@ -295,8 +295,17 @@
 
 @media (max-width: 1023px) {
     .header {
-        background: rgba(10, 25, 47, 0.98);
-        padding: 1rem 0;
+        background: rgba(10, 25, 47, 0.95);
+        padding: 0.75rem 0;
+        backdrop-filter: blur(10px);
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .logo a {
+        font-size: 1.25rem;
     }
 
     .mobileToggle {
@@ -306,6 +315,7 @@
 
     .logo {
         order: 1; /* Keep logo on the left */
+        margin-right: auto;
     }
 
     .actions {

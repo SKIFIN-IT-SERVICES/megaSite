@@ -58,7 +58,7 @@ const Hero = () => {
                         <p className={styles.subtitle}>{slide.subtitle}</p>
                         <div className={styles.ctaWrapper}>
                             <button className="btn btn-primary">{slide.cta}</button>
-                            <button className="btn btn-outline" style={{ borderColor: 'rgba(255,255,255,0.5)', color: '#fff', marginLeft: '1rem' }}>
+                            <button className={`btn btn-outline ${styles.btnOutlineHero}`}>
                                 Learn More
                             </button>
                         </div>

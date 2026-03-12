@@ -40,11 +40,33 @@
     font-weight: 800;
     font-size: 1.5rem;
     color: #CBD5E1;
-    /* Muted gray for logos */
     transition: color 0.3s ease;
 }
 
 .partner:hover .logoText {
     color: var(--color-primary);
-    /* Color on hover */
+}
+
+@media (max-width: 768px) {
+    .trustSection {
+        padding: 3rem 0 2rem;
+    }
+
+    .grid {
+        gap: 2.5rem;
+    }
+
+    .logoText {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        gap: 1.5rem;
+    }
+
+    .logoText {
+        font-size: 1.1rem;
+    }
 }
